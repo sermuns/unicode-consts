@@ -1,5 +1,6 @@
 [package]
 name = "unicode-consts"
+description = "named constans for all unicode characters"
 version = "0.1.0"
 edition = "2024"
 
