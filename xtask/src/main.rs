@@ -14,7 +14,7 @@ const BLOCKS_URL: &str = "https://www.unicode.org/Public/UCD/latest/ucd/Blocks.t
 
 #[derive(Debug)]
 struct UnicodeBlock {
-    // start: u32,
+    start: u32,
     end: u32,
     snake_case_name: String,
 }
@@ -25,18 +25,34 @@ impl FromStr for UnicodeBlock {
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         let (range, name) = s.split_once(';').unwrap();
 
-        let (_start_str, end_str) = range.split_once("..").unwrap();
+        let (start_str, end_str) = range.split_once("..").unwrap();
 
-        // let start = u32::from_str_radix(start_str, 16)?;
+        let start = u32::from_str_radix(start_str, 16)?;
         let end = u32::from_str_radix(end_str, 16)?;
 
         Ok(UnicodeBlock {
-            // start,
+            start,
             end,
             // don't know if we can avoid alloc
             snake_case_name: name.trim().replace([' ', '-'], "_").to_lowercase(),
         })
     }
+}
+
+fn enter_unicode_block(
+    writer: &mut impl Write,
+    unicode_block: &UnicodeBlock,
+) -> std::io::Result<()> {
+    println!("doing unicode block '{}'", unicode_block.snake_case_name);
+
+    writeln!(
+        writer,
+        "/// {:04X}..{:04X}",
+        unicode_block.start, unicode_block.end
+    )?;
+    writeln!(writer, "pub mod {} {{", unicode_block.snake_case_name)?;
+
+    Ok(())
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -65,16 +81,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // FIXME: mother of unwraps
     let mut current_unicode_block = UnicodeBlock::from_str(&unicode_blocks_lines.next().unwrap()?)?;
-
-    writeln!(
-        writer,
-        "pub mod {} {{",
-        current_unicode_block.snake_case_name
-    )?;
-    println!(
-        "doing unicode block '{}'",
-        current_unicode_block.snake_case_name
-    );
+    enter_unicode_block(&mut writer, &current_unicode_block)?;
 
     for result in csv_reader.records() {
         let record = result?;
@@ -85,15 +92,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         if code_value > current_unicode_block.end {
             current_unicode_block =
                 UnicodeBlock::from_str(&unicode_blocks_lines.next().unwrap().unwrap()).unwrap();
-            writeln!(
-                writer,
-                "}}\npub mod {} {{",
-                current_unicode_block.snake_case_name
-            )?;
-            println!(
-                "doing unicode block '{}'",
-                current_unicode_block.snake_case_name
-            );
+            enter_unicode_block(&mut writer, &current_unicode_block)?;
         }
 
         let character_name = &record[1];
@@ -105,7 +104,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         let character = char::from_u32(code_value).unwrap();
         if !character.is_whitespace() && !character.is_control() {
-            writeln!(writer)?;
             writeln!(writer, r#"    #[doc = "\u{{{}}}"]"#, code_value_str)?;
         }
 
