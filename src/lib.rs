@@ -189,6 +189,8 @@ pub mod basic_latin {
     pub const RIGHT_CURLY_BRACKET: &str = "\u{007D}";
     #[doc = "\u{007E}"]
     pub const TILDE: &str = "\u{007E}";
+}
+
 /// 0080..00FF
 pub mod latin_1_supplement {
     pub const NO_BREAK_SPACE: &str = "\u{00A0}";
@@ -382,6 +384,8 @@ pub mod latin_1_supplement {
     pub const LATIN_SMALL_LETTER_THORN: &str = "\u{00FE}";
     #[doc = "\u{00FF}"]
     pub const LATIN_SMALL_LETTER_Y_WITH_DIAERESIS: &str = "\u{00FF}";
+}
+
 /// 0100..017F
 pub mod latin_extended_a {
     #[doc = "\u{0100}"]
@@ -640,6 +644,8 @@ pub mod latin_extended_a {
     pub const LATIN_SMALL_LETTER_Z_WITH_CARON: &str = "\u{017E}";
     #[doc = "\u{017F}"]
     pub const LATIN_SMALL_LETTER_LONG_S: &str = "\u{017F}";
+}
+
 /// 0180..024F
 pub mod latin_extended_b {
     #[doc = "\u{0180}"]
@@ -1058,6 +1064,8 @@ pub mod latin_extended_b {
     pub const LATIN_CAPITAL_LETTER_Y_WITH_STROKE: &str = "\u{024E}";
     #[doc = "\u{024F}"]
     pub const LATIN_SMALL_LETTER_Y_WITH_STROKE: &str = "\u{024F}";
+}
+
 /// 0250..02AF
 pub mod ipa_extensions {
     #[doc = "\u{0250}"]
@@ -1252,6 +1260,8 @@ pub mod ipa_extensions {
     pub const LATIN_SMALL_LETTER_TURNED_H_WITH_FISHHOOK: &str = "\u{02AE}";
     #[doc = "\u{02AF}"]
     pub const LATIN_SMALL_LETTER_TURNED_H_WITH_FISHHOOK_AND_TAIL: &str = "\u{02AF}";
+}
+
 /// 02B0..02FF
 pub mod spacing_modifier_letters {
     #[doc = "\u{02B0}"]
@@ -1414,6 +1424,8 @@ pub mod spacing_modifier_letters {
     pub const MODIFIER_LETTER_OPEN_SHELF: &str = "\u{02FE}";
     #[doc = "\u{02FF}"]
     pub const MODIFIER_LETTER_LOW_LEFT_ARROW: &str = "\u{02FF}";
+}
+
 /// 0300..036F
 pub mod combining_diacritical_marks {
     #[doc = "\u{0300}"]
@@ -1640,6 +1652,8 @@ pub mod combining_diacritical_marks {
     pub const COMBINING_LATIN_SMALL_LETTER_V: &str = "\u{036E}";
     #[doc = "\u{036F}"]
     pub const COMBINING_LATIN_SMALL_LETTER_X: &str = "\u{036F}";
+}
+
 /// 0370..03FF
 pub mod greek_and_coptic {
     #[doc = "\u{0370}"]
@@ -1912,6 +1926,8 @@ pub mod greek_and_coptic {
     pub const GREEK_CAPITAL_DOTTED_LUNATE_SIGMA_SYMBOL: &str = "\u{03FE}";
     #[doc = "\u{03FF}"]
     pub const GREEK_CAPITAL_REVERSED_DOTTED_LUNATE_SIGMA_SYMBOL: &str = "\u{03FF}";
+}
+
 /// 0400..04FF
 pub mod cyrillic {
     #[doc = "\u{0400}"]
@@ -2426,6 +2442,8 @@ pub mod cyrillic {
     pub const CYRILLIC_CAPITAL_LETTER_HA_WITH_STROKE: &str = "\u{04FE}";
     #[doc = "\u{04FF}"]
     pub const CYRILLIC_SMALL_LETTER_HA_WITH_STROKE: &str = "\u{04FF}";
+}
+
 /// 0500..052F
 pub mod cyrillic_supplement {
     #[doc = "\u{0500}"]
@@ -2524,6 +2542,8 @@ pub mod cyrillic_supplement {
     pub const CYRILLIC_CAPITAL_LETTER_EL_WITH_DESCENDER: &str = "\u{052E}";
     #[doc = "\u{052F}"]
     pub const CYRILLIC_SMALL_LETTER_EL_WITH_DESCENDER: &str = "\u{052F}";
+}
+
 /// 0530..058F
 pub mod armenian {
     #[doc = "\u{0531}"]
@@ -2708,6 +2728,8 @@ pub mod armenian {
     pub const LEFT_FACING_ARMENIAN_ETERNITY_SIGN: &str = "\u{058E}";
     #[doc = "\u{058F}"]
     pub const ARMENIAN_DRAM_SIGN: &str = "\u{058F}";
+}
+
 /// 0590..05FF
 pub mod hebrew {
     #[doc = "\u{0591}"]
@@ -2886,6 +2908,8 @@ pub mod hebrew {
     pub const HEBREW_PUNCTUATION_GERESH: &str = "\u{05F3}";
     #[doc = "\u{05F4}"]
     pub const HEBREW_PUNCTUATION_GERSHAYIM: &str = "\u{05F4}";
+}
+
 /// 0600..06FF
 pub mod arabic {
     #[doc = "\u{0600}"]
@@ -3400,6 +3424,8 @@ pub mod arabic {
     pub const ARABIC_SIGN_SINDHI_POSTPOSITION_MEN: &str = "\u{06FE}";
     #[doc = "\u{06FF}"]
     pub const ARABIC_LETTER_HEH_WITH_INVERTED_V: &str = "\u{06FF}";
+}
+
 /// 0700..074F
 pub mod syriac {
     #[doc = "\u{0700}"]
@@ -3556,6 +3582,8 @@ pub mod syriac {
     pub const SYRIAC_LETTER_SOGDIAN_KHAPH: &str = "\u{074E}";
     #[doc = "\u{074F}"]
     pub const SYRIAC_LETTER_SOGDIAN_FE: &str = "\u{074F}";
+}
+
 /// 0750..077F
 pub mod arabic_supplement {
     #[doc = "\u{0750}"]
@@ -3654,6 +3682,8 @@ pub mod arabic_supplement {
     pub const ARABIC_LETTER_SEEN_WITH_INVERTED_V: &str = "\u{077E}";
     #[doc = "\u{077F}"]
     pub const ARABIC_LETTER_KAF_WITH_TWO_DOTS_ABOVE: &str = "\u{077F}";
+}
+
 /// 0780..07BF
 pub mod thaana {
     #[doc = "\u{0780}"]
@@ -3756,6 +3786,8 @@ pub mod thaana {
     pub const THAANA_SUKUN: &str = "\u{07B0}";
     #[doc = "\u{07B1}"]
     pub const THAANA_LETTER_NAA: &str = "\u{07B1}";
+}
+
 /// 07C0..07FF
 pub mod nko {
     #[doc = "\u{07C0}"]
@@ -3882,6 +3914,8 @@ pub mod nko {
     pub const NKO_DOROME_SIGN: &str = "\u{07FE}";
     #[doc = "\u{07FF}"]
     pub const NKO_TAMAN_SIGN: &str = "\u{07FF}";
+}
+
 /// 0800..083F
 pub mod samaritan {
     #[doc = "\u{0800}"]
@@ -4006,6 +4040,8 @@ pub mod samaritan {
     pub const SAMARITAN_PUNCTUATION_SOF_MASHFAAT: &str = "\u{083D}";
     #[doc = "\u{083E}"]
     pub const SAMARITAN_PUNCTUATION_ANNAAU: &str = "\u{083E}";
+}
+
 /// 0840..085F
 pub mod mandaic {
     #[doc = "\u{0840}"]
@@ -4066,6 +4102,8 @@ pub mod mandaic {
     pub const MANDAIC_GEMINATION_MARK: &str = "\u{085B}";
     #[doc = "\u{085E}"]
     pub const MANDAIC_PUNCTUATION: &str = "\u{085E}";
+}
+
 /// 0860..086F
 pub mod syriac_supplement {
     #[doc = "\u{0860}"]
@@ -4090,6 +4128,8 @@ pub mod syriac_supplement {
     pub const SYRIAC_LETTER_MALAYALAM_LLLA: &str = "\u{0869}";
     #[doc = "\u{086A}"]
     pub const SYRIAC_LETTER_MALAYALAM_SSA: &str = "\u{086A}";
+}
+
 /// 0870..089F
 pub mod arabic_extended_b {
     #[doc = "\u{0870}"]
@@ -4178,6 +4218,8 @@ pub mod arabic_extended_b {
     pub const ARABIC_DOUBLED_MADDA: &str = "\u{089E}";
     #[doc = "\u{089F}"]
     pub const ARABIC_HALF_MADDA_OVER_MADDA: &str = "\u{089F}";
+}
+
 /// 08A0..08FF
 pub mod arabic_extended_a {
     #[doc = "\u{08A0}"]
@@ -4372,6 +4414,8 @@ pub mod arabic_extended_a {
     pub const ARABIC_DAMMA_WITH_DOT: &str = "\u{08FE}";
     #[doc = "\u{08FF}"]
     pub const ARABIC_MARK_SIDEWAYS_NOON_GHUNNA: &str = "\u{08FF}";
+}
+
 /// 0900..097F
 pub mod devanagari {
     #[doc = "\u{0900}"]
@@ -4630,6 +4674,8 @@ pub mod devanagari {
     pub const DEVANAGARI_LETTER_DDDA: &str = "\u{097E}";
     #[doc = "\u{097F}"]
     pub const DEVANAGARI_LETTER_BBA: &str = "\u{097F}";
+}
+
 /// 0980..09FF
 pub mod bengali {
     #[doc = "\u{0980}"]
@@ -4824,6 +4870,8 @@ pub mod bengali {
     pub const BENGALI_ABBREVIATION_SIGN: &str = "\u{09FD}";
     #[doc = "\u{09FE}"]
     pub const BENGALI_SANDHI_MARK: &str = "\u{09FE}";
+}
+
 /// 0A00..0A7F
 pub mod gurmukhi {
     #[doc = "\u{0A01}"]
@@ -4986,6 +5034,8 @@ pub mod gurmukhi {
     pub const GURMUKHI_SIGN_YAKASH: &str = "\u{0A75}";
     #[doc = "\u{0A76}"]
     pub const GURMUKHI_ABBREVIATION_SIGN: &str = "\u{0A76}";
+}
+
 /// 0A80..0AFF
 pub mod gujarati {
     #[doc = "\u{0A81}"]
@@ -5170,6 +5220,8 @@ pub mod gujarati {
     pub const GUJARATI_SIGN_CIRCLE_NUKTA_ABOVE: &str = "\u{0AFE}";
     #[doc = "\u{0AFF}"]
     pub const GUJARATI_SIGN_TWO_CIRCLE_NUKTA_ABOVE: &str = "\u{0AFF}";
+}
+
 /// 0B00..0B7F
 pub mod oriya {
     #[doc = "\u{0B01}"]
@@ -5354,6 +5406,8 @@ pub mod oriya {
     pub const ORIYA_FRACTION_ONE_EIGHTH: &str = "\u{0B76}";
     #[doc = "\u{0B77}"]
     pub const ORIYA_FRACTION_THREE_SIXTEENTHS: &str = "\u{0B77}";
+}
+
 /// 0B80..0BFF
 pub mod tamil {
     #[doc = "\u{0B82}"]
@@ -5500,6 +5554,8 @@ pub mod tamil {
     pub const TAMIL_RUPEE_SIGN: &str = "\u{0BF9}";
     #[doc = "\u{0BFA}"]
     pub const TAMIL_NUMBER_SIGN: &str = "\u{0BFA}";
+}
+
 /// 0C00..0C7F
 pub mod telugu {
     #[doc = "\u{0C00}"]
@@ -5704,6 +5760,8 @@ pub mod telugu {
     pub const TELUGU_FRACTION_DIGIT_THREE_FOR_EVEN_POWERS_OF_FOUR: &str = "\u{0C7E}";
     #[doc = "\u{0C7F}"]
     pub const TELUGU_SIGN_TUUMU: &str = "\u{0C7F}";
+}
+
 /// 0C80..0CFF
 pub mod kannada {
     #[doc = "\u{0C80}"]
@@ -5890,6 +5948,8 @@ pub mod kannada {
     pub const KANNADA_SIGN_UPADHMANIYA: &str = "\u{0CF2}";
     #[doc = "\u{0CF3}"]
     pub const KANNADA_SIGN_COMBINING_ANUSVARA_ABOVE_RIGHT: &str = "\u{0CF3}";
+}
+
 /// 0D00..0D7F
 pub mod malayalam {
     #[doc = "\u{0D00}"]
@@ -6128,6 +6188,8 @@ pub mod malayalam {
     pub const MALAYALAM_LETTER_CHILLU_LL: &str = "\u{0D7E}";
     #[doc = "\u{0D7F}"]
     pub const MALAYALAM_LETTER_CHILLU_K: &str = "\u{0D7F}";
+}
+
 /// 0D80..0DFF
 pub mod sinhala {
     #[doc = "\u{0D81}"]
@@ -6312,6 +6374,8 @@ pub mod sinhala {
     pub const SINHALA_VOWEL_SIGN_DIGA_GAYANUKITTA: &str = "\u{0DF3}";
     #[doc = "\u{0DF4}"]
     pub const SINHALA_PUNCTUATION_KUNDDALIYA: &str = "\u{0DF4}";
+}
+
 /// 0E00..0E7F
 pub mod thai {
     #[doc = "\u{0E01}"]
@@ -6488,6 +6552,8 @@ pub mod thai {
     pub const THAI_CHARACTER_ANGKHANKHU: &str = "\u{0E5A}";
     #[doc = "\u{0E5B}"]
     pub const THAI_CHARACTER_KHOMUT: &str = "\u{0E5B}";
+}
+
 /// 0E80..0EFF
 pub mod lao {
     #[doc = "\u{0E81}"]
@@ -6656,6 +6722,8 @@ pub mod lao {
     pub const LAO_LETTER_KHMU_GO: &str = "\u{0EDE}";
     #[doc = "\u{0EDF}"]
     pub const LAO_LETTER_KHMU_NYO: &str = "\u{0EDF}";
+}
+
 /// 0F00..0FFF
 pub mod tibetan {
     #[doc = "\u{0F00}"]
@@ -7080,6 +7148,8 @@ pub mod tibetan {
     pub const TIBETAN_MARK_LEADING_MCHAN_RTAGS: &str = "\u{0FD9}";
     #[doc = "\u{0FDA}"]
     pub const TIBETAN_MARK_TRAILING_MCHAN_RTAGS: &str = "\u{0FDA}";
+}
+
 /// 1000..109F
 pub mod myanmar {
     #[doc = "\u{1000}"]
@@ -7402,6 +7472,8 @@ pub mod myanmar {
     pub const MYANMAR_SYMBOL_SHAN_ONE: &str = "\u{109E}";
     #[doc = "\u{109F}"]
     pub const MYANMAR_SYMBOL_SHAN_EXCLAMATION: &str = "\u{109F}";
+}
+
 /// 10A0..10FF
 pub mod georgian {
     #[doc = "\u{10A0}"]
@@ -7580,6 +7652,8 @@ pub mod georgian {
     pub const GEORGIAN_LETTER_HARD_SIGN: &str = "\u{10FE}";
     #[doc = "\u{10FF}"]
     pub const GEORGIAN_LETTER_LABIAL_SIGN: &str = "\u{10FF}";
+}
+
 /// 1100..11FF
 pub mod hangul_jamo {
     #[doc = "\u{1100}"]
@@ -8094,6 +8168,8 @@ pub mod hangul_jamo {
     pub const HANGUL_JONGSEONG_KIYEOK_HIEUH: &str = "\u{11FE}";
     #[doc = "\u{11FF}"]
     pub const HANGUL_JONGSEONG_SSANGNIEUN: &str = "\u{11FF}";
+}
+
 /// 1200..137F
 pub mod ethiopic {
     #[doc = "\u{1200}"]
@@ -8812,6 +8888,8 @@ pub mod ethiopic {
     pub const ETHIOPIC_NUMBER_HUNDRED: &str = "\u{137B}";
     #[doc = "\u{137C}"]
     pub const ETHIOPIC_NUMBER_TEN_THOUSAND: &str = "\u{137C}";
+}
+
 /// 1380..139F
 pub mod ethiopic_supplement {
     #[doc = "\u{1380}"]
@@ -8866,6 +8944,8 @@ pub mod ethiopic_supplement {
     pub const ETHIOPIC_TONAL_MARK_DERET_HIDET: &str = "\u{1398}";
     #[doc = "\u{1399}"]
     pub const ETHIOPIC_TONAL_MARK_KURT: &str = "\u{1399}";
+}
+
 /// 13A0..13FF
 pub mod cherokee {
     #[doc = "\u{13A0}"]
@@ -9052,6 +9132,8 @@ pub mod cherokee {
     pub const CHEROKEE_SMALL_LETTER_YV: &str = "\u{13FC}";
     #[doc = "\u{13FD}"]
     pub const CHEROKEE_SMALL_LETTER_MV: &str = "\u{13FD}";
+}
+
 /// 1400..167F
 pub mod unified_canadian_aboriginal_syllabics {
     #[doc = "\u{1400}"]
@@ -10334,6 +10416,8 @@ pub mod unified_canadian_aboriginal_syllabics {
     pub const CANADIAN_SYLLABICS_WOODS_CREE_FINAL_TH: &str = "\u{167E}";
     #[doc = "\u{167F}"]
     pub const CANADIAN_SYLLABICS_BLACKFOOT_W: &str = "\u{167F}";
+}
+
 /// 1680..169F
 pub mod ogham {
     pub const OGHAM_SPACE_MARK: &str = "\u{1680}";
@@ -10393,6 +10477,8 @@ pub mod ogham {
     pub const OGHAM_FEATHER_MARK: &str = "\u{169B}";
     #[doc = "\u{169C}"]
     pub const OGHAM_REVERSED_FEATHER_MARK: &str = "\u{169C}";
+}
+
 /// 16A0..16FF
 pub mod runic {
     #[doc = "\u{16A0}"]
@@ -10573,6 +10659,8 @@ pub mod runic {
     pub const RUNIC_LETTER_FRANKS_CASKET_AC: &str = "\u{16F7}";
     #[doc = "\u{16F8}"]
     pub const RUNIC_LETTER_FRANKS_CASKET_AESC: &str = "\u{16F8}";
+}
+
 /// 1700..171F
 pub mod tagalog {
     #[doc = "\u{1700}"]
@@ -10621,6 +10709,8 @@ pub mod tagalog {
     pub const TAGALOG_SIGN_PAMUDPOD: &str = "\u{1715}";
     #[doc = "\u{171F}"]
     pub const TAGALOG_LETTER_ARCHAIC_RA: &str = "\u{171F}";
+}
+
 /// 1720..173F
 pub mod hanunoo {
     #[doc = "\u{1720}"]
@@ -10669,6 +10759,8 @@ pub mod hanunoo {
     pub const PHILIPPINE_SINGLE_PUNCTUATION: &str = "\u{1735}";
     #[doc = "\u{1736}"]
     pub const PHILIPPINE_DOUBLE_PUNCTUATION: &str = "\u{1736}";
+}
+
 /// 1740..175F
 pub mod buhid {
     #[doc = "\u{1740}"]
@@ -10711,6 +10803,8 @@ pub mod buhid {
     pub const BUHID_VOWEL_SIGN_I: &str = "\u{1752}";
     #[doc = "\u{1753}"]
     pub const BUHID_VOWEL_SIGN_U: &str = "\u{1753}";
+}
+
 /// 1760..177F
 pub mod tagbanwa {
     #[doc = "\u{1760}"]
@@ -10749,6 +10843,8 @@ pub mod tagbanwa {
     pub const TAGBANWA_VOWEL_SIGN_I: &str = "\u{1772}";
     #[doc = "\u{1773}"]
     pub const TAGBANWA_VOWEL_SIGN_U: &str = "\u{1773}";
+}
+
 /// 1780..17FF
 pub mod khmer {
     #[doc = "\u{1780}"]
@@ -10979,6 +11075,8 @@ pub mod khmer {
     pub const KHMER_SYMBOL_LEK_ATTAK_PRAM_BEI: &str = "\u{17F8}";
     #[doc = "\u{17F9}"]
     pub const KHMER_SYMBOL_LEK_ATTAK_PRAM_BUON: &str = "\u{17F9}";
+}
+
 /// 1800..18AF
 pub mod mongolian {
     #[doc = "\u{1800}"]
@@ -11297,6 +11395,8 @@ pub mod mongolian {
     pub const MONGOLIAN_LETTER_ALI_GALI_DAGALGA: &str = "\u{18A9}";
     #[doc = "\u{18AA}"]
     pub const MONGOLIAN_LETTER_MANCHU_ALI_GALI_LHA: &str = "\u{18AA}";
+}
+
 /// 18B0..18FF
 pub mod unified_canadian_aboriginal_syllabics_extended {
     #[doc = "\u{18B0}"]
@@ -11439,6 +11539,8 @@ pub mod unified_canadian_aboriginal_syllabics_extended {
     pub const CANADIAN_SYLLABICS_BEAVER_DENE_R: &str = "\u{18F4}";
     #[doc = "\u{18F5}"]
     pub const CANADIAN_SYLLABICS_CARRIER_DENTAL_S: &str = "\u{18F5}";
+}
+
 /// 1900..194F
 pub mod limbu {
     #[doc = "\u{1900}"]
@@ -11577,6 +11679,8 @@ pub mod limbu {
     pub const LIMBU_DIGIT_EIGHT: &str = "\u{194E}";
     #[doc = "\u{194F}"]
     pub const LIMBU_DIGIT_NINE: &str = "\u{194F}";
+}
+
 /// 1950..197F
 pub mod tai_le {
     #[doc = "\u{1950}"]
@@ -11649,6 +11753,8 @@ pub mod tai_le {
     pub const TAI_LE_LETTER_TONE_5: &str = "\u{1973}";
     #[doc = "\u{1974}"]
     pub const TAI_LE_LETTER_TONE_6: &str = "\u{1974}";
+}
+
 /// 1980..19DF
 pub mod new_tai_lue {
     #[doc = "\u{1980}"]
@@ -11817,6 +11923,8 @@ pub mod new_tai_lue {
     pub const NEW_TAI_LUE_SIGN_LAE: &str = "\u{19DE}";
     #[doc = "\u{19DF}"]
     pub const NEW_TAI_LUE_SIGN_LAEV: &str = "\u{19DF}";
+}
+
 /// 19E0..19FF
 pub mod khmer_symbols {
     #[doc = "\u{19E0}"]
@@ -11883,6 +11991,8 @@ pub mod khmer_symbols {
     pub const KHMER_SYMBOL_DAP_BUON_ROC: &str = "\u{19FE}";
     #[doc = "\u{19FF}"]
     pub const KHMER_SYMBOL_DAP_PRAM_ROC: &str = "\u{19FF}";
+}
+
 /// 1A00..1A1F
 pub mod buginese {
     #[doc = "\u{1A00}"]
@@ -11945,6 +12055,8 @@ pub mod buginese {
     pub const BUGINESE_PALLAWA: &str = "\u{1A1E}";
     #[doc = "\u{1A1F}"]
     pub const BUGINESE_END_OF_SECTION: &str = "\u{1A1F}";
+}
+
 /// 1A20..1AAF
 pub mod tai_tham {
     #[doc = "\u{1A20}"]
@@ -12201,6 +12313,8 @@ pub mod tai_tham {
     pub const TAI_THAM_SIGN_HANG: &str = "\u{1AAC}";
     #[doc = "\u{1AAD}"]
     pub const TAI_THAM_SIGN_CAANG: &str = "\u{1AAD}";
+}
+
 /// 1AB0..1AFF
 pub mod combining_diacritical_marks_extended {
     #[doc = "\u{1AB0}"]
@@ -12319,6 +12433,8 @@ pub mod combining_diacritical_marks_extended {
     pub const COMBINING_UPWARDS_ARROW_ABOVE: &str = "\u{1AEA}";
     #[doc = "\u{1AEB}"]
     pub const COMBINING_DOUBLE_RIGHTWARDS_ARROW_ABOVE: &str = "\u{1AEB}";
+}
+
 /// 1B00..1B7F
 pub mod balinese {
     #[doc = "\u{1B00}"]
@@ -12575,6 +12691,8 @@ pub mod balinese {
     pub const BALINESE_PAMADA_LANTANG: &str = "\u{1B7E}";
     #[doc = "\u{1B7F}"]
     pub const BALINESE_PANTI_BAWAK: &str = "\u{1B7F}";
+}
+
 /// 1B80..1BBF
 pub mod sundanese {
     #[doc = "\u{1B80}"]
@@ -12705,6 +12823,8 @@ pub mod sundanese {
     pub const SUNDANESE_LETTER_FINAL_K: &str = "\u{1BBE}";
     #[doc = "\u{1BBF}"]
     pub const SUNDANESE_LETTER_FINAL_M: &str = "\u{1BBF}";
+}
+
 /// 1BC0..1BFF
 pub mod batak {
     #[doc = "\u{1BC0}"]
@@ -12819,6 +12939,8 @@ pub mod batak {
     pub const BATAK_SYMBOL_BINDU_JUDUL: &str = "\u{1BFE}";
     #[doc = "\u{1BFF}"]
     pub const BATAK_SYMBOL_BINDU_PANGOLAT: &str = "\u{1BFF}";
+}
+
 /// 1C00..1C4F
 pub mod lepcha {
     #[doc = "\u{1C00}"]
@@ -12969,6 +13091,8 @@ pub mod lepcha {
     pub const LEPCHA_LETTER_TTHA: &str = "\u{1C4E}";
     #[doc = "\u{1C4F}"]
     pub const LEPCHA_LETTER_DDA: &str = "\u{1C4F}";
+}
+
 /// 1C50..1C7F
 pub mod ol_chiki {
     #[doc = "\u{1C50}"]
@@ -13067,6 +13191,8 @@ pub mod ol_chiki {
     pub const OL_CHIKI_PUNCTUATION_MUCAAD: &str = "\u{1C7E}";
     #[doc = "\u{1C7F}"]
     pub const OL_CHIKI_PUNCTUATION_DOUBLE_MUCAAD: &str = "\u{1C7F}";
+}
+
 /// 1C80..1C8F
 pub mod cyrillic_extended_c {
     #[doc = "\u{1C80}"]
@@ -13091,6 +13217,8 @@ pub mod cyrillic_extended_c {
     pub const CYRILLIC_CAPITAL_LETTER_TJE: &str = "\u{1C89}";
     #[doc = "\u{1C8A}"]
     pub const CYRILLIC_SMALL_LETTER_TJE: &str = "\u{1C8A}";
+}
+
 /// 1C90..1CBF
 pub mod georgian_extended {
     #[doc = "\u{1C90}"]
@@ -13185,6 +13313,8 @@ pub mod georgian_extended {
     pub const GEORGIAN_MTAVRULI_CAPITAL_LETTER_HARD_SIGN: &str = "\u{1CBE}";
     #[doc = "\u{1CBF}"]
     pub const GEORGIAN_MTAVRULI_CAPITAL_LETTER_LABIAL_SIGN: &str = "\u{1CBF}";
+}
+
 /// 1CC0..1CCF
 pub mod sundanese_supplement {
     #[doc = "\u{1CC0}"]
@@ -13203,6 +13333,8 @@ pub mod sundanese_supplement {
     pub const SUNDANESE_PUNCTUATION_BINDU_DA_SATANGA: &str = "\u{1CC6}";
     #[doc = "\u{1CC7}"]
     pub const SUNDANESE_PUNCTUATION_BINDU_BA_SATANGA: &str = "\u{1CC7}";
+}
+
 /// 1CD0..1CFF
 pub mod vedic_extensions {
     #[doc = "\u{1CD0}"]
@@ -13291,6 +13423,8 @@ pub mod vedic_extensions {
     pub const VEDIC_TONE_DOUBLE_RING_ABOVE: &str = "\u{1CF9}";
     #[doc = "\u{1CFA}"]
     pub const VEDIC_SIGN_DOUBLE_ANUSVARA_ANTARGOMUKHA: &str = "\u{1CFA}";
+}
+
 /// 1D00..1D7F
 pub mod phonetic_extensions {
     #[doc = "\u{1D00}"]
@@ -13549,6 +13683,8 @@ pub mod phonetic_extensions {
     pub const LATIN_SMALL_CAPITAL_LETTER_U_WITH_STROKE: &str = "\u{1D7E}";
     #[doc = "\u{1D7F}"]
     pub const LATIN_SMALL_LETTER_UPSILON_WITH_STROKE: &str = "\u{1D7F}";
+}
+
 /// 1D80..1DBF
 pub mod phonetic_extensions_supplement {
     #[doc = "\u{1D80}"]
@@ -13679,6 +13815,8 @@ pub mod phonetic_extensions_supplement {
     pub const MODIFIER_LETTER_SMALL_EZH: &str = "\u{1DBE}";
     #[doc = "\u{1DBF}"]
     pub const MODIFIER_LETTER_SMALL_THETA: &str = "\u{1DBF}";
+}
+
 /// 1DC0..1DFF
 pub mod combining_diacritical_marks_supplement {
     #[doc = "\u{1DC0}"]
@@ -13809,6 +13947,8 @@ pub mod combining_diacritical_marks_supplement {
     pub const COMBINING_LEFT_ARROWHEAD_ABOVE: &str = "\u{1DFE}";
     #[doc = "\u{1DFF}"]
     pub const COMBINING_RIGHT_ARROWHEAD_AND_DOWN_ARROWHEAD_BELOW: &str = "\u{1DFF}";
+}
+
 /// 1E00..1EFF
 pub mod latin_extended_additional {
     #[doc = "\u{1E00}"]
@@ -14323,6 +14463,8 @@ pub mod latin_extended_additional {
     pub const LATIN_CAPITAL_LETTER_Y_WITH_LOOP: &str = "\u{1EFE}";
     #[doc = "\u{1EFF}"]
     pub const LATIN_SMALL_LETTER_Y_WITH_LOOP: &str = "\u{1EFF}";
+}
+
 /// 1F00..1FFF
 pub mod greek_extended {
     #[doc = "\u{1F00}"]
@@ -14791,6 +14933,8 @@ pub mod greek_extended {
     pub const GREEK_OXIA: &str = "\u{1FFD}";
     #[doc = "\u{1FFE}"]
     pub const GREEK_DASIA: &str = "\u{1FFE}";
+}
+
 /// 2000..206F
 pub mod general_punctuation {
     pub const EN_QUAD: &str = "\u{2000}";
@@ -15000,6 +15144,8 @@ pub mod general_punctuation {
     pub const NATIONAL_DIGIT_SHAPES: &str = "\u{206E}";
     #[doc = "\u{206F}"]
     pub const NOMINAL_DIGIT_SHAPES: &str = "\u{206F}";
+}
+
 /// 2070..209F
 pub mod superscripts_and_subscripts {
     #[doc = "\u{2070}"]
@@ -15086,6 +15232,8 @@ pub mod superscripts_and_subscripts {
     pub const LATIN_SUBSCRIPT_SMALL_LETTER_S: &str = "\u{209B}";
     #[doc = "\u{209C}"]
     pub const LATIN_SUBSCRIPT_SMALL_LETTER_T: &str = "\u{209C}";
+}
+
 /// 20A0..20CF
 pub mod currency_symbols {
     #[doc = "\u{20A0}"]
@@ -15156,6 +15304,8 @@ pub mod currency_symbols {
     pub const SOM_SIGN: &str = "\u{20C0}";
     #[doc = "\u{20C1}"]
     pub const SAUDI_RIYAL_SIGN: &str = "\u{20C1}";
+}
+
 /// 20D0..20FF
 pub mod combining_diacritical_marks_for_symbols {
     #[doc = "\u{20D0}"]
@@ -15224,6 +15374,8 @@ pub mod combining_diacritical_marks_for_symbols {
     pub const COMBINING_RIGHT_ARROW_BELOW: &str = "\u{20EF}";
     #[doc = "\u{20F0}"]
     pub const COMBINING_ASTERISK_ABOVE: &str = "\u{20F0}";
+}
+
 /// 2100..214F
 pub mod letterlike_symbols {
     #[doc = "\u{2100}"]
@@ -15386,6 +15538,8 @@ pub mod letterlike_symbols {
     pub const TURNED_SMALL_F: &str = "\u{214E}";
     #[doc = "\u{214F}"]
     pub const SYMBOL_FOR_SAMARITAN_SOURCE: &str = "\u{214F}";
+}
+
 /// 2150..218F
 pub mod number_forms {
     #[doc = "\u{2150}"]
@@ -15508,6 +15662,8 @@ pub mod number_forms {
     pub const TURNED_DIGIT_TWO: &str = "\u{218A}";
     #[doc = "\u{218B}"]
     pub const TURNED_DIGIT_THREE: &str = "\u{218B}";
+}
+
 /// 2190..21FF
 pub mod arrows {
     #[doc = "\u{2190}"]
@@ -15734,6 +15890,8 @@ pub mod arrows {
     pub const RIGHTWARDS_OPEN_HEADED_ARROW: &str = "\u{21FE}";
     #[doc = "\u{21FF}"]
     pub const LEFT_RIGHT_OPEN_HEADED_ARROW: &str = "\u{21FF}";
+}
+
 /// 2200..22FF
 pub mod mathematical_operators {
     #[doc = "\u{2200}"]
@@ -16248,6 +16406,8 @@ pub mod mathematical_operators {
     pub const SMALL_CONTAINS_WITH_OVERBAR: &str = "\u{22FE}";
     #[doc = "\u{22FF}"]
     pub const Z_NOTATION_BAG_MEMBERSHIP: &str = "\u{22FF}";
+}
+
 /// 2300..23FF
 pub mod miscellaneous_technical {
     #[doc = "\u{2300}"]
@@ -16762,6 +16922,8 @@ pub mod miscellaneous_technical {
     pub const POWER_SLEEP_SYMBOL: &str = "\u{23FE}";
     #[doc = "\u{23FF}"]
     pub const OBSERVER_EYE_SYMBOL: &str = "\u{23FF}";
+}
+
 /// 2400..243F
 pub mod control_pictures {
     #[doc = "\u{2400}"]
@@ -16848,6 +17010,8 @@ pub mod control_pictures {
     pub const SYMBOL_FOR_DELETE_RECTANGULAR_CHECKER_BOARD_FORM: &str = "\u{2428}";
     #[doc = "\u{2429}"]
     pub const SYMBOL_FOR_DELETE_MEDIUM_SHADE_FORM: &str = "\u{2429}";
+}
+
 /// 2440..245F
 pub mod optical_character_recognition {
     #[doc = "\u{2440}"]
@@ -16872,6 +17036,8 @@ pub mod optical_character_recognition {
     pub const OCR_CUSTOMER_ACCOUNT_NUMBER: &str = "\u{2449}";
     #[doc = "\u{244A}"]
     pub const OCR_DOUBLE_BACKSLASH: &str = "\u{244A}";
+}
+
 /// 2460..24FF
 pub mod enclosed_alphanumerics {
     #[doc = "\u{2460}"]
@@ -17194,6 +17360,8 @@ pub mod enclosed_alphanumerics {
     pub const DOUBLE_CIRCLED_NUMBER_TEN: &str = "\u{24FE}";
     #[doc = "\u{24FF}"]
     pub const NEGATIVE_CIRCLED_DIGIT_ZERO: &str = "\u{24FF}";
+}
+
 /// 2500..257F
 pub mod box_drawing {
     #[doc = "\u{2500}"]
@@ -17452,6 +17620,8 @@ pub mod box_drawing {
     pub const BOX_DRAWINGS_HEAVY_LEFT_AND_LIGHT_RIGHT: &str = "\u{257E}";
     #[doc = "\u{257F}"]
     pub const BOX_DRAWINGS_HEAVY_UP_AND_LIGHT_DOWN: &str = "\u{257F}";
+}
+
 /// 2580..259F
 pub mod block_elements {
     #[doc = "\u{2580}"]
@@ -17518,6 +17688,8 @@ pub mod block_elements {
     pub const QUADRANT_UPPER_RIGHT_AND_LOWER_LEFT: &str = "\u{259E}";
     #[doc = "\u{259F}"]
     pub const QUADRANT_UPPER_RIGHT_AND_LOWER_LEFT_AND_LOWER_RIGHT: &str = "\u{259F}";
+}
+
 /// 25A0..25FF
 pub mod geometric_shapes {
     #[doc = "\u{25A0}"]
@@ -17712,6 +17884,8 @@ pub mod geometric_shapes {
     pub const BLACK_MEDIUM_SMALL_SQUARE: &str = "\u{25FE}";
     #[doc = "\u{25FF}"]
     pub const LOWER_RIGHT_TRIANGLE: &str = "\u{25FF}";
+}
+
 /// 2600..26FF
 pub mod miscellaneous_symbols {
     #[doc = "\u{2600}"]
@@ -18226,6 +18400,8 @@ pub mod miscellaneous_symbols {
     pub const CUP_ON_BLACK_SQUARE: &str = "\u{26FE}";
     #[doc = "\u{26FF}"]
     pub const WHITE_FLAG_WITH_HORIZONTAL_MIDDLE_BLACK_STRIPE: &str = "\u{26FF}";
+}
+
 /// 2700..27BF
 pub mod dingbats {
     #[doc = "\u{2700}"]
@@ -18612,6 +18788,8 @@ pub mod dingbats {
     pub const OPEN_OUTLINED_RIGHTWARDS_ARROW: &str = "\u{27BE}";
     #[doc = "\u{27BF}"]
     pub const DOUBLE_CURLY_LOOP: &str = "\u{27BF}";
+}
+
 /// 27C0..27EF
 pub mod miscellaneous_mathematical_symbols_a {
     #[doc = "\u{27C0}"]
@@ -18710,6 +18888,8 @@ pub mod miscellaneous_mathematical_symbols_a {
     pub const MATHEMATICAL_LEFT_FLATTENED_PARENTHESIS: &str = "\u{27EE}";
     #[doc = "\u{27EF}"]
     pub const MATHEMATICAL_RIGHT_FLATTENED_PARENTHESIS: &str = "\u{27EF}";
+}
+
 /// 27F0..27FF
 pub mod supplemental_arrows_a {
     #[doc = "\u{27F0}"]
@@ -18744,6 +18924,8 @@ pub mod supplemental_arrows_a {
     pub const LONG_RIGHTWARDS_DOUBLE_ARROW_FROM_BAR: &str = "\u{27FE}";
     #[doc = "\u{27FF}"]
     pub const LONG_RIGHTWARDS_SQUIGGLE_ARROW: &str = "\u{27FF}";
+}
+
 /// 2800..28FF
 pub mod braille_patterns {
     #[doc = "\u{2800}"]
@@ -19258,6 +19440,8 @@ pub mod braille_patterns {
     pub const BRAILLE_PATTERN_DOTS_2345678: &str = "\u{28FE}";
     #[doc = "\u{28FF}"]
     pub const BRAILLE_PATTERN_DOTS_12345678: &str = "\u{28FF}";
+}
+
 /// 2900..297F
 pub mod supplemental_arrows_b {
     #[doc = "\u{2900}"]
@@ -19516,6 +19700,8 @@ pub mod supplemental_arrows_b {
     pub const UP_FISH_TAIL: &str = "\u{297E}";
     #[doc = "\u{297F}"]
     pub const DOWN_FISH_TAIL: &str = "\u{297F}";
+}
+
 /// 2980..29FF
 pub mod miscellaneous_mathematical_symbols_b {
     #[doc = "\u{2980}"]
@@ -19774,6 +19960,8 @@ pub mod miscellaneous_mathematical_symbols_b {
     pub const TINY: &str = "\u{29FE}";
     #[doc = "\u{29FF}"]
     pub const MINY: &str = "\u{29FF}";
+}
+
 /// 2A00..2AFF
 pub mod supplemental_mathematical_operators {
     #[doc = "\u{2A00}"]
@@ -20288,6 +20476,8 @@ pub mod supplemental_mathematical_operators {
     pub const WHITE_VERTICAL_BAR: &str = "\u{2AFE}";
     #[doc = "\u{2AFF}"]
     pub const N_ARY_WHITE_VERTICAL_BAR: &str = "\u{2AFF}";
+}
+
 /// 2B00..2BFF
 pub mod miscellaneous_symbols_and_arrows {
     #[doc = "\u{2B00}"]
@@ -20798,6 +20988,8 @@ pub mod miscellaneous_symbols_and_arrows {
     pub const REVERSED_RIGHT_ANGLE: &str = "\u{2BFE}";
     #[doc = "\u{2BFF}"]
     pub const HELLSCHREIBER_PAUSE_SYMBOL: &str = "\u{2BFF}";
+}
+
 /// 2C00..2C5F
 pub mod glagolitic {
     #[doc = "\u{2C00}"]
@@ -20992,6 +21184,8 @@ pub mod glagolitic {
     pub const GLAGOLITIC_SMALL_LETTER_LATINATE_MYSLITE: &str = "\u{2C5E}";
     #[doc = "\u{2C5F}"]
     pub const GLAGOLITIC_SMALL_LETTER_CAUDATE_CHRIVI: &str = "\u{2C5F}";
+}
+
 /// 2C60..2C7F
 pub mod latin_extended_c {
     #[doc = "\u{2C60}"]
@@ -21058,6 +21252,8 @@ pub mod latin_extended_c {
     pub const LATIN_CAPITAL_LETTER_S_WITH_SWASH_TAIL: &str = "\u{2C7E}";
     #[doc = "\u{2C7F}"]
     pub const LATIN_CAPITAL_LETTER_Z_WITH_SWASH_TAIL: &str = "\u{2C7F}";
+}
+
 /// 2C80..2CFF
 pub mod coptic {
     #[doc = "\u{2C80}"]
@@ -21306,6 +21502,8 @@ pub mod coptic {
     pub const COPTIC_FULL_STOP: &str = "\u{2CFE}";
     #[doc = "\u{2CFF}"]
     pub const COPTIC_MORPHOLOGICAL_DIVIDER: &str = "\u{2CFF}";
+}
+
 /// 2D00..2D2F
 pub mod georgian_supplement {
     #[doc = "\u{2D00}"]
@@ -21388,6 +21586,8 @@ pub mod georgian_supplement {
     pub const GEORGIAN_SMALL_LETTER_YN: &str = "\u{2D27}";
     #[doc = "\u{2D2D}"]
     pub const GEORGIAN_SMALL_LETTER_AEN: &str = "\u{2D2D}";
+}
+
 /// 2D30..2D7F
 pub mod tifinagh {
     #[doc = "\u{2D30}"]
@@ -21508,6 +21708,8 @@ pub mod tifinagh {
     pub const TIFINAGH_SEPARATOR_MARK: &str = "\u{2D70}";
     #[doc = "\u{2D7F}"]
     pub const TIFINAGH_CONSONANT_JOINER: &str = "\u{2D7F}";
+}
+
 /// 2D80..2DDF
 pub mod ethiopic_extended {
     #[doc = "\u{2D80}"]
@@ -21668,6 +21870,8 @@ pub mod ethiopic_extended {
     pub const ETHIOPIC_SYLLABLE_GYE: &str = "\u{2DDD}";
     #[doc = "\u{2DDE}"]
     pub const ETHIOPIC_SYLLABLE_GYO: &str = "\u{2DDE}";
+}
+
 /// 2DE0..2DFF
 pub mod cyrillic_extended_a {
     #[doc = "\u{2DE0}"]
@@ -21734,6 +21938,8 @@ pub mod cyrillic_extended_a {
     pub const COMBINING_CYRILLIC_LETTER_BIG_YUS: &str = "\u{2DFE}";
     #[doc = "\u{2DFF}"]
     pub const COMBINING_CYRILLIC_LETTER_IOTIFIED_BIG_YUS: &str = "\u{2DFF}";
+}
+
 /// 2E00..2E7F
 pub mod supplemental_punctuation {
     #[doc = "\u{2E00}"]
@@ -21924,6 +22130,8 @@ pub mod supplemental_punctuation {
     pub const BOTTOM_HALF_RIGHT_PARENTHESIS: &str = "\u{2E5C}";
     #[doc = "\u{2E5D}"]
     pub const OBLIQUE_HYPHEN: &str = "\u{2E5D}";
+}
+
 /// 2E80..2EFF
 pub mod cjk_radicals_supplement {
     #[doc = "\u{2E80}"]
@@ -22156,6 +22364,8 @@ pub mod cjk_radicals_supplement {
     pub const CJK_RADICAL_J_SIMPLIFIED_TURTLE: &str = "\u{2EF2}";
     #[doc = "\u{2EF3}"]
     pub const CJK_RADICAL_C_SIMPLIFIED_TURTLE: &str = "\u{2EF3}";
+}
+
 /// 2F00..2FDF
 pub mod kangxi_radicals {
     #[doc = "\u{2F00}"]
@@ -22586,6 +22796,8 @@ pub mod kangxi_radicals {
     pub const KANGXI_RADICAL_TURTLE: &str = "\u{2FD4}";
     #[doc = "\u{2FD5}"]
     pub const KANGXI_RADICAL_FLUTE: &str = "\u{2FD5}";
+}
+
 /// 2FF0..2FFF
 pub mod ideographic_description_characters {
     #[doc = "\u{2FF0}"]
@@ -22620,6 +22832,8 @@ pub mod ideographic_description_characters {
     pub const IDEOGRAPHIC_DESCRIPTION_CHARACTER_HORIZONTAL_REFLECTION: &str = "\u{2FFE}";
     #[doc = "\u{2FFF}"]
     pub const IDEOGRAPHIC_DESCRIPTION_CHARACTER_ROTATION: &str = "\u{2FFF}";
+}
+
 /// 3000..303F
 pub mod cjk_symbols_and_punctuation {
     pub const IDEOGRAPHIC_SPACE: &str = "\u{3000}";
@@ -22749,6 +22963,8 @@ pub mod cjk_symbols_and_punctuation {
     pub const IDEOGRAPHIC_VARIATION_INDICATOR: &str = "\u{303E}";
     #[doc = "\u{303F}"]
     pub const IDEOGRAPHIC_HALF_FILL_SPACE: &str = "\u{303F}";
+}
+
 /// 3040..309F
 pub mod hiragana {
     #[doc = "\u{3041}"]
@@ -22937,6 +23153,8 @@ pub mod hiragana {
     pub const HIRAGANA_VOICED_ITERATION_MARK: &str = "\u{309E}";
     #[doc = "\u{309F}"]
     pub const HIRAGANA_DIGRAPH_YORI: &str = "\u{309F}";
+}
+
 /// 30A0..30FF
 pub mod katakana {
     #[doc = "\u{30A0}"]
@@ -23131,6 +23349,8 @@ pub mod katakana {
     pub const KATAKANA_VOICED_ITERATION_MARK: &str = "\u{30FE}";
     #[doc = "\u{30FF}"]
     pub const KATAKANA_DIGRAPH_KOTO: &str = "\u{30FF}";
+}
+
 /// 3100..312F
 pub mod bopomofo {
     #[doc = "\u{3105}"]
@@ -23219,6 +23439,8 @@ pub mod bopomofo {
     pub const BOPOMOFO_LETTER_O_WITH_DOT_ABOVE: &str = "\u{312E}";
     #[doc = "\u{312F}"]
     pub const BOPOMOFO_LETTER_NN: &str = "\u{312F}";
+}
+
 /// 3130..318F
 pub mod hangul_compatibility_jamo {
     #[doc = "\u{3131}"]
@@ -23409,6 +23631,8 @@ pub mod hangul_compatibility_jamo {
     pub const HANGUL_LETTER_ARAEA: &str = "\u{318D}";
     #[doc = "\u{318E}"]
     pub const HANGUL_LETTER_ARAEAE: &str = "\u{318E}";
+}
+
 /// 3190..319F
 pub mod kanbun {
     #[doc = "\u{3190}"]
@@ -23443,6 +23667,8 @@ pub mod kanbun {
     pub const IDEOGRAPHIC_ANNOTATION_EARTH_MARK: &str = "\u{319E}";
     #[doc = "\u{319F}"]
     pub const IDEOGRAPHIC_ANNOTATION_MAN_MARK: &str = "\u{319F}";
+}
+
 /// 31A0..31BF
 pub mod bopomofo_extended {
     #[doc = "\u{31A0}"]
@@ -23509,6 +23735,8 @@ pub mod bopomofo_extended {
     pub const BOPOMOFO_LETTER_OE: &str = "\u{31BE}";
     #[doc = "\u{31BF}"]
     pub const BOPOMOFO_LETTER_AH: &str = "\u{31BF}";
+}
+
 /// 31C0..31EF
 pub mod cjk_strokes {
     #[doc = "\u{31C0}"]
@@ -23589,6 +23817,8 @@ pub mod cjk_strokes {
     pub const CJK_STROKE_SZP: &str = "\u{31E5}";
     #[doc = "\u{31EF}"]
     pub const IDEOGRAPHIC_DESCRIPTION_CHARACTER_SUBTRACTION: &str = "\u{31EF}";
+}
+
 /// 31F0..31FF
 pub mod katakana_phonetic_extensions {
     #[doc = "\u{31F0}"]
@@ -23623,6 +23853,8 @@ pub mod katakana_phonetic_extensions {
     pub const KATAKANA_LETTER_SMALL_RE: &str = "\u{31FE}";
     #[doc = "\u{31FF}"]
     pub const KATAKANA_LETTER_SMALL_RO: &str = "\u{31FF}";
+}
+
 /// 3200..32FF
 pub mod enclosed_cjk_letters_and_months {
     #[doc = "\u{3200}"]
@@ -24135,6 +24367,8 @@ pub mod enclosed_cjk_letters_and_months {
     pub const CIRCLED_KATAKANA_WO: &str = "\u{32FE}";
     #[doc = "\u{32FF}"]
     pub const SQUARE_ERA_NAME_REIWA: &str = "\u{32FF}";
+}
+
 /// 3300..33FF
 pub mod cjk_compatibility {
     #[doc = "\u{3300}"]
@@ -24649,8 +24883,12 @@ pub mod cjk_compatibility {
     pub const IDEOGRAPHIC_TELEGRAPH_SYMBOL_FOR_DAY_THIRTY_ONE: &str = "\u{33FE}";
     #[doc = "\u{33FF}"]
     pub const SQUARE_GAL: &str = "\u{33FF}";
+}
+
 /// 3400..4DBF
 pub mod cjk_unified_ideographs_extension_a {
+}
+
 /// 4DC0..4DFF
 pub mod yijing_hexagram_symbols {
     #[doc = "\u{4DC0}"]
@@ -24781,8 +25019,12 @@ pub mod yijing_hexagram_symbols {
     pub const HEXAGRAM_FOR_AFTER_COMPLETION: &str = "\u{4DFE}";
     #[doc = "\u{4DFF}"]
     pub const HEXAGRAM_FOR_BEFORE_COMPLETION: &str = "\u{4DFF}";
+}
+
 /// 4E00..9FFF
 pub mod cjk_unified_ideographs {
+}
+
 /// A000..A48F
 pub mod yi_syllables {
     #[doc = "\u{A000}"]
@@ -27115,6 +27357,8 @@ pub mod yi_syllables {
     pub const YI_SYLLABLE_YYRX: &str = "\u{A48B}";
     #[doc = "\u{A48C}"]
     pub const YI_SYLLABLE_YYR: &str = "\u{A48C}";
+}
+
 /// A490..A4CF
 pub mod yi_radicals {
     #[doc = "\u{A490}"]
@@ -27227,6 +27471,8 @@ pub mod yi_radicals {
     pub const YI_RADICAL_NBIE: &str = "\u{A4C5}";
     #[doc = "\u{A4C6}"]
     pub const YI_RADICAL_KE: &str = "\u{A4C6}";
+}
+
 /// A4D0..A4FF
 pub mod lisu {
     #[doc = "\u{A4D0}"]
@@ -27325,6 +27571,8 @@ pub mod lisu {
     pub const LISU_PUNCTUATION_COMMA: &str = "\u{A4FE}";
     #[doc = "\u{A4FF}"]
     pub const LISU_PUNCTUATION_FULL_STOP: &str = "\u{A4FF}";
+}
+
 /// A500..A63F
 pub mod vai {
     #[doc = "\u{A500}"]
@@ -27927,6 +28175,8 @@ pub mod vai {
     pub const VAI_SYLLABLE_NDOLE_MA: &str = "\u{A62A}";
     #[doc = "\u{A62B}"]
     pub const VAI_SYLLABLE_NDOLE_DO: &str = "\u{A62B}";
+}
+
 /// A640..A69F
 pub mod cyrillic_extended_b {
     #[doc = "\u{A640}"]
@@ -28121,6 +28371,8 @@ pub mod cyrillic_extended_b {
     pub const COMBINING_CYRILLIC_LETTER_EF: &str = "\u{A69E}";
     #[doc = "\u{A69F}"]
     pub const COMBINING_CYRILLIC_LETTER_IOTIFIED_E: &str = "\u{A69F}";
+}
+
 /// A6A0..A6FF
 pub mod bamum {
     #[doc = "\u{A6A0}"]
@@ -28299,6 +28551,8 @@ pub mod bamum {
     pub const BAMUM_SEMICOLON: &str = "\u{A6F6}";
     #[doc = "\u{A6F7}"]
     pub const BAMUM_QUESTION_MARK: &str = "\u{A6F7}";
+}
+
 /// A700..A71F
 pub mod modifier_tone_letters {
     #[doc = "\u{A700}"]
@@ -28365,6 +28619,8 @@ pub mod modifier_tone_letters {
     pub const MODIFIER_LETTER_RAISED_INVERTED_EXCLAMATION_MARK: &str = "\u{A71E}";
     #[doc = "\u{A71F}"]
     pub const MODIFIER_LETTER_LOW_INVERTED_EXCLAMATION_MARK: &str = "\u{A71F}";
+}
+
 /// A720..A7FF
 pub mod latin_extended_d {
     #[doc = "\u{A720}"]
@@ -28775,6 +29031,8 @@ pub mod latin_extended_d {
     pub const LATIN_EPIGRAPHIC_LETTER_I_LONGA: &str = "\u{A7FE}";
     #[doc = "\u{A7FF}"]
     pub const LATIN_EPIGRAPHIC_LETTER_ARCHAIC_M: &str = "\u{A7FF}";
+}
+
 /// A800..A82F
 pub mod syloti_nagri {
     #[doc = "\u{A800}"]
@@ -28867,6 +29125,8 @@ pub mod syloti_nagri {
     pub const SYLOTI_NAGRI_POETRY_MARK_4: &str = "\u{A82B}";
     #[doc = "\u{A82C}"]
     pub const SYLOTI_NAGRI_SIGN_ALTERNATE_HASANTA: &str = "\u{A82C}";
+}
+
 /// A830..A83F
 pub mod common_indic_number_forms {
     #[doc = "\u{A830}"]
@@ -28889,6 +29149,8 @@ pub mod common_indic_number_forms {
     pub const NORTH_INDIC_RUPEE_MARK: &str = "\u{A838}";
     #[doc = "\u{A839}"]
     pub const NORTH_INDIC_QUANTITY_MARK: &str = "\u{A839}";
+}
+
 /// A840..A87F
 pub mod phags_pa {
     #[doc = "\u{A840}"]
@@ -29003,6 +29265,8 @@ pub mod phags_pa {
     pub const PHAGS_PA_MARK_SHAD: &str = "\u{A876}";
     #[doc = "\u{A877}"]
     pub const PHAGS_PA_MARK_DOUBLE_SHAD: &str = "\u{A877}";
+}
+
 /// A880..A8DF
 pub mod saurashtra {
     #[doc = "\u{A880}"]
@@ -29169,6 +29433,8 @@ pub mod saurashtra {
     pub const SAURASHTRA_DIGIT_EIGHT: &str = "\u{A8D8}";
     #[doc = "\u{A8D9}"]
     pub const SAURASHTRA_DIGIT_NINE: &str = "\u{A8D9}";
+}
+
 /// A8E0..A8FF
 pub mod devanagari_extended {
     #[doc = "\u{A8E0}"]
@@ -29235,6 +29501,8 @@ pub mod devanagari_extended {
     pub const DEVANAGARI_LETTER_AY: &str = "\u{A8FE}";
     #[doc = "\u{A8FF}"]
     pub const DEVANAGARI_VOWEL_SIGN_AY: &str = "\u{A8FF}";
+}
+
 /// A900..A92F
 pub mod kayah_li {
     #[doc = "\u{A900}"]
@@ -29333,6 +29601,8 @@ pub mod kayah_li {
     pub const KAYAH_LI_SIGN_CWI: &str = "\u{A92E}";
     #[doc = "\u{A92F}"]
     pub const KAYAH_LI_SIGN_SHYA: &str = "\u{A92F}";
+}
+
 /// A930..A95F
 pub mod rejang {
     #[doc = "\u{A930}"]
@@ -29409,6 +29679,8 @@ pub mod rejang {
     pub const REJANG_VIRAMA: &str = "\u{A953}";
     #[doc = "\u{A95F}"]
     pub const REJANG_SECTION_MARK: &str = "\u{A95F}";
+}
+
 /// A960..A97F
 pub mod hangul_jamo_extended_a {
     #[doc = "\u{A960}"]
@@ -29469,6 +29741,8 @@ pub mod hangul_jamo_extended_a {
     pub const HANGUL_CHOSEONG_HIEUH_SIOS: &str = "\u{A97B}";
     #[doc = "\u{A97C}"]
     pub const HANGUL_CHOSEONG_SSANGYEORINHIEUH: &str = "\u{A97C}";
+}
+
 /// A980..A9DF
 pub mod javanese {
     #[doc = "\u{A980}"]
@@ -29653,6 +29927,8 @@ pub mod javanese {
     pub const JAVANESE_PADA_TIRTA_TUMETES: &str = "\u{A9DE}";
     #[doc = "\u{A9DF}"]
     pub const JAVANESE_PADA_ISEN_ISEN: &str = "\u{A9DF}";
+}
+
 /// A9E0..A9FF
 pub mod myanmar_extended_b {
     #[doc = "\u{A9E0}"]
@@ -29717,6 +29993,8 @@ pub mod myanmar_extended_b {
     pub const MYANMAR_LETTER_TAI_LAING_BA: &str = "\u{A9FD}";
     #[doc = "\u{A9FE}"]
     pub const MYANMAR_LETTER_TAI_LAING_BHA: &str = "\u{A9FE}";
+}
+
 /// AA00..AA5F
 pub mod cham {
     #[doc = "\u{AA00}"]
@@ -29885,6 +30163,8 @@ pub mod cham {
     pub const CHAM_PUNCTUATION_DOUBLE_DANDA: &str = "\u{AA5E}";
     #[doc = "\u{AA5F}"]
     pub const CHAM_PUNCTUATION_TRIPLE_DANDA: &str = "\u{AA5F}";
+}
+
 /// AA60..AA7F
 pub mod myanmar_extended_a {
     #[doc = "\u{AA60}"]
@@ -29951,6 +30231,8 @@ pub mod myanmar_extended_a {
     pub const MYANMAR_LETTER_SHWE_PALAUNG_CHA: &str = "\u{AA7E}";
     #[doc = "\u{AA7F}"]
     pub const MYANMAR_LETTER_SHWE_PALAUNG_SHA: &str = "\u{AA7F}";
+}
+
 /// AA80..AADF
 pub mod tai_viet {
     #[doc = "\u{AA80}"]
@@ -30097,6 +30379,8 @@ pub mod tai_viet {
     pub const TAI_VIET_SYMBOL_HO_HOI: &str = "\u{AADE}";
     #[doc = "\u{AADF}"]
     pub const TAI_VIET_SYMBOL_KOI_KOI: &str = "\u{AADF}";
+}
+
 /// AAE0..AAFF
 pub mod meetei_mayek_extensions {
     #[doc = "\u{AAE0}"]
@@ -30145,6 +30429,8 @@ pub mod meetei_mayek_extensions {
     pub const MEETEI_MAYEK_VOWEL_SIGN_VISARGA: &str = "\u{AAF5}";
     #[doc = "\u{AAF6}"]
     pub const MEETEI_MAYEK_VIRAMA: &str = "\u{AAF6}";
+}
+
 /// AB00..AB2F
 pub mod ethiopic_extended_a {
     #[doc = "\u{AB01}"]
@@ -30211,6 +30497,8 @@ pub mod ethiopic_extended_a {
     pub const ETHIOPIC_SYLLABLE_BBE: &str = "\u{AB2D}";
     #[doc = "\u{AB2E}"]
     pub const ETHIOPIC_SYLLABLE_BBO: &str = "\u{AB2E}";
+}
+
 /// AB30..AB6F
 pub mod latin_extended_e {
     #[doc = "\u{AB30}"]
@@ -30333,6 +30621,8 @@ pub mod latin_extended_e {
     pub const MODIFIER_LETTER_LEFT_TACK: &str = "\u{AB6A}";
     #[doc = "\u{AB6B}"]
     pub const MODIFIER_LETTER_RIGHT_TACK: &str = "\u{AB6B}";
+}
+
 /// AB70..ABBF
 pub mod cherokee_supplement {
     #[doc = "\u{AB70}"]
@@ -30495,6 +30785,8 @@ pub mod cherokee_supplement {
     pub const CHEROKEE_SMALL_LETTER_WV: &str = "\u{ABBE}";
     #[doc = "\u{ABBF}"]
     pub const CHEROKEE_SMALL_LETTER_YA: &str = "\u{ABBF}";
+}
+
 /// ABC0..ABFF
 pub mod meetei_mayek {
     #[doc = "\u{ABC0}"]
@@ -30609,8 +30901,12 @@ pub mod meetei_mayek {
     pub const MEETEI_MAYEK_DIGIT_EIGHT: &str = "\u{ABF8}";
     #[doc = "\u{ABF9}"]
     pub const MEETEI_MAYEK_DIGIT_NINE: &str = "\u{ABF9}";
+}
+
 /// AC00..D7AF
 pub mod hangul_syllables {
+}
+
 /// D7B0..D7FF
 pub mod hangul_jamo_extended_b {
     #[doc = "\u{D7B0}"]
@@ -30757,14 +31053,24 @@ pub mod hangul_jamo_extended_b {
     pub const HANGUL_JONGSEONG_PHIEUPH_SIOS: &str = "\u{D7FA}";
     #[doc = "\u{D7FB}"]
     pub const HANGUL_JONGSEONG_PHIEUPH_THIEUTH: &str = "\u{D7FB}";
+}
+
 /// D800..DB7F
 pub mod high_surrogates {
+}
+
 /// DB80..DBFF
 pub mod high_private_use_surrogates {
+}
+
 /// DC00..DFFF
 pub mod low_surrogates {
+}
+
 /// E000..F8FF
 pub mod private_use_area {
+}
+
 /// F900..FAFF
 pub mod cjk_compatibility_ideographs {
     #[doc = "\u{F900}"]
@@ -31711,6 +32017,8 @@ pub mod cjk_compatibility_ideographs {
     pub const CJK_COMPATIBILITY_IDEOGRAPH_FAD8: &str = "\u{FAD8}";
     #[doc = "\u{FAD9}"]
     pub const CJK_COMPATIBILITY_IDEOGRAPH_FAD9: &str = "\u{FAD9}";
+}
+
 /// FB00..FB4F
 pub mod alphabetic_presentation_forms {
     #[doc = "\u{FB00}"]
@@ -31829,6 +32137,8 @@ pub mod alphabetic_presentation_forms {
     pub const HEBREW_LETTER_PE_WITH_RAFE: &str = "\u{FB4E}";
     #[doc = "\u{FB4F}"]
     pub const HEBREW_LIGATURE_ALEF_LAMED: &str = "\u{FB4F}";
+}
+
 /// FB50..FDFF
 pub mod arabic_presentation_forms_a {
     #[doc = "\u{FB50}"]
@@ -33143,6 +33453,8 @@ pub mod arabic_presentation_forms_a {
     pub const ARABIC_LIGATURE_SUBHAANAHU_WA_TAAALAA: &str = "\u{FDFE}";
     #[doc = "\u{FDFF}"]
     pub const ARABIC_LIGATURE_AZZA_WA_JALL: &str = "\u{FDFF}";
+}
+
 /// FE00..FE0F
 pub mod variation_selectors {
     #[doc = "\u{FE00}"]
@@ -33177,6 +33489,8 @@ pub mod variation_selectors {
     pub const VARIATION_SELECTOR_15: &str = "\u{FE0E}";
     #[doc = "\u{FE0F}"]
     pub const VARIATION_SELECTOR_16: &str = "\u{FE0F}";
+}
+
 /// FE10..FE1F
 pub mod vertical_forms {
     #[doc = "\u{FE10}"]
@@ -33199,6 +33513,8 @@ pub mod vertical_forms {
     pub const PRESENTATION_FORM_FOR_VERTICAL_RIGHT_WHITE_LENTICULAR_BRAKCET: &str = "\u{FE18}";
     #[doc = "\u{FE19}"]
     pub const PRESENTATION_FORM_FOR_VERTICAL_HORIZONTAL_ELLIPSIS: &str = "\u{FE19}";
+}
+
 /// FE20..FE2F
 pub mod combining_half_marks {
     #[doc = "\u{FE20}"]
@@ -33233,6 +33549,8 @@ pub mod combining_half_marks {
     pub const COMBINING_CYRILLIC_TITLO_LEFT_HALF: &str = "\u{FE2E}";
     #[doc = "\u{FE2F}"]
     pub const COMBINING_CYRILLIC_TITLO_RIGHT_HALF: &str = "\u{FE2F}";
+}
+
 /// FE30..FE4F
 pub mod cjk_compatibility_forms {
     #[doc = "\u{FE30}"]
@@ -33299,6 +33617,8 @@ pub mod cjk_compatibility_forms {
     pub const CENTRELINE_LOW_LINE: &str = "\u{FE4E}";
     #[doc = "\u{FE4F}"]
     pub const WAVY_LOW_LINE: &str = "\u{FE4F}";
+}
+
 /// FE50..FE6F
 pub mod small_form_variants {
     #[doc = "\u{FE50}"]
@@ -33353,6 +33673,8 @@ pub mod small_form_variants {
     pub const SMALL_PERCENT_SIGN: &str = "\u{FE6A}";
     #[doc = "\u{FE6B}"]
     pub const SMALL_COMMERCIAL_AT: &str = "\u{FE6B}";
+}
+
 /// FE70..FEFF
 pub mod arabic_presentation_forms_b {
     #[doc = "\u{FE70}"]
@@ -33637,6 +33959,8 @@ pub mod arabic_presentation_forms_b {
     pub const ARABIC_LIGATURE_LAM_WITH_ALEF_FINAL_FORM: &str = "\u{FEFC}";
     #[doc = "\u{FEFF}"]
     pub const ZERO_WIDTH_NO_BREAK_SPACE: &str = "\u{FEFF}";
+}
+
 /// FF00..FFEF
 pub mod halfwidth_and_fullwidth_forms {
     #[doc = "\u{FF01}"]
@@ -34089,6 +34413,8 @@ pub mod halfwidth_and_fullwidth_forms {
     pub const HALFWIDTH_BLACK_SQUARE: &str = "\u{FFED}";
     #[doc = "\u{FFEE}"]
     pub const HALFWIDTH_WHITE_CIRCLE: &str = "\u{FFEE}";
+}
+
 /// FFF0..FFFF
 pub mod specials {
     #[doc = "\u{FFF9}"]
@@ -34101,6 +34427,8 @@ pub mod specials {
     pub const OBJECT_REPLACEMENT_CHARACTER: &str = "\u{FFFC}";
     #[doc = "\u{FFFD}"]
     pub const REPLACEMENT_CHARACTER: &str = "\u{FFFD}";
+}
+
 /// 10000..1007F
 pub mod linear_b_syllabary {
     #[doc = "\u{10000}"]
@@ -34279,6 +34607,8 @@ pub mod linear_b_syllabary {
     pub const LINEAR_B_SYMBOL_B086: &str = "\u{1005C}";
     #[doc = "\u{1005D}"]
     pub const LINEAR_B_SYMBOL_B089: &str = "\u{1005D}";
+}
+
 /// 10080..100FF
 pub mod linear_b_ideograms {
     #[doc = "\u{10080}"]
@@ -34527,6 +34857,8 @@ pub mod linear_b_ideograms {
     pub const LINEAR_B_IDEOGRAM_VESSEL_B250: &str = "\u{100F9}";
     #[doc = "\u{100FA}"]
     pub const LINEAR_B_IDEOGRAM_VESSEL_B305: &str = "\u{100FA}";
+}
+
 /// 10100..1013F
 pub mod aegean_numbers {
     #[doc = "\u{10100}"]
@@ -34643,6 +34975,8 @@ pub mod aegean_numbers {
     pub const AEGEAN_MEASURE_SECOND_SUBUNIT: &str = "\u{1013E}";
     #[doc = "\u{1013F}"]
     pub const AEGEAN_MEASURE_THIRD_SUBUNIT: &str = "\u{1013F}";
+}
+
 /// 10140..1018F
 pub mod ancient_greek_numbers {
     #[doc = "\u{10140}"]
@@ -34803,6 +35137,8 @@ pub mod ancient_greek_numbers {
     pub const GREEK_INDICTION_SIGN: &str = "\u{1018D}";
     #[doc = "\u{1018E}"]
     pub const NOMISMA_SIGN: &str = "\u{1018E}";
+}
+
 /// 10190..101CF
 pub mod ancient_symbols {
     #[doc = "\u{10190}"]
@@ -34833,6 +35169,8 @@ pub mod ancient_symbols {
     pub const ASCIA_SYMBOL: &str = "\u{1019C}";
     #[doc = "\u{101A0}"]
     pub const GREEK_SYMBOL_TAU_RHO: &str = "\u{101A0}";
+}
+
 /// 101D0..101FF
 pub mod phaistos_disc {
     #[doc = "\u{101D0}"]
@@ -34927,6 +35265,8 @@ pub mod phaistos_disc {
     pub const PHAISTOS_DISC_SIGN_WAVY_BAND: &str = "\u{101FC}";
     #[doc = "\u{101FD}"]
     pub const PHAISTOS_DISC_SIGN_COMBINING_OBLIQUE_STROKE: &str = "\u{101FD}";
+}
+
 /// 10280..1029F
 pub mod lycian {
     #[doc = "\u{10280}"]
@@ -34987,6 +35327,8 @@ pub mod lycian {
     pub const LYCIAN_LETTER_H: &str = "\u{1029B}";
     #[doc = "\u{1029C}"]
     pub const LYCIAN_LETTER_X: &str = "\u{1029C}";
+}
+
 /// 102A0..102DF
 pub mod carian {
     #[doc = "\u{102A0}"]
@@ -35087,6 +35429,8 @@ pub mod carian {
     pub const CARIAN_LETTER_E2: &str = "\u{102CF}";
     #[doc = "\u{102D0}"]
     pub const CARIAN_LETTER_UUU3: &str = "\u{102D0}";
+}
+
 /// 102E0..102FF
 pub mod coptic_epact_numbers {
     #[doc = "\u{102E0}"]
@@ -35145,6 +35489,8 @@ pub mod coptic_epact_numbers {
     pub const COPTIC_EPACT_NUMBER_EIGHT_HUNDRED: &str = "\u{102FA}";
     #[doc = "\u{102FB}"]
     pub const COPTIC_EPACT_NUMBER_NINE_HUNDRED: &str = "\u{102FB}";
+}
+
 /// 10300..1032F
 pub mod old_italic {
     #[doc = "\u{10300}"]
@@ -35225,6 +35571,8 @@ pub mod old_italic {
     pub const OLD_ITALIC_LETTER_NORTHERN_TSE: &str = "\u{1032E}";
     #[doc = "\u{1032F}"]
     pub const OLD_ITALIC_LETTER_SOUTHERN_TSE: &str = "\u{1032F}";
+}
+
 /// 10330..1034F
 pub mod gothic {
     #[doc = "\u{10330}"]
@@ -35281,6 +35629,8 @@ pub mod gothic {
     pub const GOTHIC_LETTER_OTHAL: &str = "\u{10349}";
     #[doc = "\u{1034A}"]
     pub const GOTHIC_LETTER_NINE_HUNDRED: &str = "\u{1034A}";
+}
+
 /// 10350..1037F
 pub mod old_permic {
     #[doc = "\u{10350}"]
@@ -35369,6 +35719,8 @@ pub mod old_permic {
     pub const COMBINING_OLD_PERMIC_LETTER_NENOE: &str = "\u{10379}";
     #[doc = "\u{1037A}"]
     pub const COMBINING_OLD_PERMIC_LETTER_SII: &str = "\u{1037A}";
+}
+
 /// 10380..1039F
 pub mod ugaritic {
     #[doc = "\u{10380}"]
@@ -35433,6 +35785,8 @@ pub mod ugaritic {
     pub const UGARITIC_LETTER_SSU: &str = "\u{1039D}";
     #[doc = "\u{1039F}"]
     pub const UGARITIC_WORD_DIVIDER: &str = "\u{1039F}";
+}
+
 /// 103A0..103DF
 pub mod old_persian {
     #[doc = "\u{103A0}"]
@@ -35535,6 +35889,8 @@ pub mod old_persian {
     pub const OLD_PERSIAN_NUMBER_TWENTY: &str = "\u{103D4}";
     #[doc = "\u{103D5}"]
     pub const OLD_PERSIAN_NUMBER_HUNDRED: &str = "\u{103D5}";
+}
+
 /// 10400..1044F
 pub mod deseret {
     #[doc = "\u{10400}"]
@@ -35697,6 +36053,8 @@ pub mod deseret {
     pub const DESERET_SMALL_LETTER_OI: &str = "\u{1044E}";
     #[doc = "\u{1044F}"]
     pub const DESERET_SMALL_LETTER_EW: &str = "\u{1044F}";
+}
+
 /// 10450..1047F
 pub mod shavian {
     #[doc = "\u{10450}"]
@@ -35795,6 +36153,8 @@ pub mod shavian {
     pub const SHAVIAN_LETTER_IAN: &str = "\u{1047E}";
     #[doc = "\u{1047F}"]
     pub const SHAVIAN_LETTER_YEW: &str = "\u{1047F}";
+}
+
 /// 10480..104AF
 pub mod osmanya {
     #[doc = "\u{10480}"]
@@ -35877,6 +36237,8 @@ pub mod osmanya {
     pub const OSMANYA_DIGIT_EIGHT: &str = "\u{104A8}";
     #[doc = "\u{104A9}"]
     pub const OSMANYA_DIGIT_NINE: &str = "\u{104A9}";
+}
+
 /// 104B0..104FF
 pub mod osage {
     #[doc = "\u{104B0}"]
@@ -36023,6 +36385,8 @@ pub mod osage {
     pub const OSAGE_SMALL_LETTER_ZA: &str = "\u{104FA}";
     #[doc = "\u{104FB}"]
     pub const OSAGE_SMALL_LETTER_ZHA: &str = "\u{104FB}";
+}
+
 /// 10500..1052F
 pub mod elbasan {
     #[doc = "\u{10500}"]
@@ -36105,6 +36469,8 @@ pub mod elbasan {
     pub const ELBASAN_LETTER_GHAMMA: &str = "\u{10526}";
     #[doc = "\u{10527}"]
     pub const ELBASAN_LETTER_KHE: &str = "\u{10527}";
+}
+
 /// 10530..1056F
 pub mod caucasian_albanian {
     #[doc = "\u{10530}"]
@@ -36213,6 +36579,8 @@ pub mod caucasian_albanian {
     pub const CAUCASIAN_ALBANIAN_LETTER_KIW: &str = "\u{10563}";
     #[doc = "\u{1056F}"]
     pub const CAUCASIAN_ALBANIAN_CITATION_MARK: &str = "\u{1056F}";
+}
+
 /// 10570..105BF
 pub mod vithkuqi {
     #[doc = "\u{10570}"]
@@ -36355,6 +36723,8 @@ pub mod vithkuqi {
     pub const VITHKUQI_SMALL_LETTER_Y: &str = "\u{105BB}";
     #[doc = "\u{105BC}"]
     pub const VITHKUQI_SMALL_LETTER_ZE: &str = "\u{105BC}";
+}
+
 /// 105C0..105FF
 pub mod todhri {
     #[doc = "\u{105C0}"]
@@ -36461,6 +36831,8 @@ pub mod todhri {
     pub const TODHRI_LETTER_PSA: &str = "\u{105F2}";
     #[doc = "\u{105F3}"]
     pub const TODHRI_LETTER_OO: &str = "\u{105F3}";
+}
+
 /// 10600..1077F
 pub mod linear_a {
     #[doc = "\u{10600}"]
@@ -37145,6 +37517,8 @@ pub mod linear_a {
     pub const LINEAR_A_SIGN_A806: &str = "\u{10766}";
     #[doc = "\u{10767}"]
     pub const LINEAR_A_SIGN_A807: &str = "\u{10767}";
+}
+
 /// 10780..107BF
 pub mod latin_extended_f {
     #[doc = "\u{10780}"]
@@ -37261,6 +37635,8 @@ pub mod latin_extended_f {
     pub const MODIFIER_LETTER_RETROFLEX_CLICK_WITH_RETROFLEX_HOOK: &str = "\u{107B9}";
     #[doc = "\u{107BA}"]
     pub const MODIFIER_LETTER_SMALL_S_WITH_CURL: &str = "\u{107BA}";
+}
+
 /// 10800..1083F
 pub mod cypriot_syllabary {
     #[doc = "\u{10800}"]
@@ -37373,6 +37749,8 @@ pub mod cypriot_syllabary {
     pub const CYPRIOT_SYLLABLE_ZA: &str = "\u{1083C}";
     #[doc = "\u{1083F}"]
     pub const CYPRIOT_SYLLABLE_ZO: &str = "\u{1083F}";
+}
+
 /// 10840..1085F
 pub mod imperial_aramaic {
     #[doc = "\u{10840}"]
@@ -37437,6 +37815,8 @@ pub mod imperial_aramaic {
     pub const IMPERIAL_ARAMAIC_NUMBER_ONE_THOUSAND: &str = "\u{1085E}";
     #[doc = "\u{1085F}"]
     pub const IMPERIAL_ARAMAIC_NUMBER_TEN_THOUSAND: &str = "\u{1085F}";
+}
+
 /// 10860..1087F
 pub mod palmyrene {
     #[doc = "\u{10860}"]
@@ -37503,6 +37883,8 @@ pub mod palmyrene {
     pub const PALMYRENE_NUMBER_TEN: &str = "\u{1087E}";
     #[doc = "\u{1087F}"]
     pub const PALMYRENE_NUMBER_TWENTY: &str = "\u{1087F}";
+}
+
 /// 10880..108AF
 pub mod nabataean {
     #[doc = "\u{10880}"]
@@ -37585,6 +37967,8 @@ pub mod nabataean {
     pub const NABATAEAN_NUMBER_TWENTY: &str = "\u{108AE}";
     #[doc = "\u{108AF}"]
     pub const NABATAEAN_NUMBER_ONE_HUNDRED: &str = "\u{108AF}";
+}
+
 /// 108E0..108FF
 pub mod hatran {
     #[doc = "\u{108E0}"]
@@ -37639,6 +38023,8 @@ pub mod hatran {
     pub const HATRAN_NUMBER_TWENTY: &str = "\u{108FE}";
     #[doc = "\u{108FF}"]
     pub const HATRAN_NUMBER_ONE_HUNDRED: &str = "\u{108FF}";
+}
+
 /// 10900..1091F
 pub mod phoenician {
     #[doc = "\u{10900}"]
@@ -37699,6 +38085,8 @@ pub mod phoenician {
     pub const PHOENICIAN_NUMBER_THREE: &str = "\u{1091B}";
     #[doc = "\u{1091F}"]
     pub const PHOENICIAN_WORD_SEPARATOR: &str = "\u{1091F}";
+}
+
 /// 10920..1093F
 pub mod lydian {
     #[doc = "\u{10920}"]
@@ -37755,6 +38143,8 @@ pub mod lydian {
     pub const LYDIAN_LETTER_C: &str = "\u{10939}";
     #[doc = "\u{1093F}"]
     pub const LYDIAN_TRIANGULAR_MARK: &str = "\u{1093F}";
+}
+
 /// 10940..1095F
 pub mod sidetic {
     #[doc = "\u{10940}"]
@@ -37809,6 +38199,8 @@ pub mod sidetic {
     pub const SIDETIC_LETTER_N25: &str = "\u{10958}";
     #[doc = "\u{10959}"]
     pub const SIDETIC_LETTER_N26: &str = "\u{10959}";
+}
+
 /// 10980..1099F
 pub mod meroitic_hieroglyphs {
     #[doc = "\u{10980}"]
@@ -37875,6 +38267,8 @@ pub mod meroitic_hieroglyphs {
     pub const MEROITIC_HIEROGLYPHIC_SYMBOL_VIDJ: &str = "\u{1099E}";
     #[doc = "\u{1099F}"]
     pub const MEROITIC_HIEROGLYPHIC_SYMBOL_VIDJ_2: &str = "\u{1099F}";
+}
+
 /// 109A0..109FF
 pub mod meroitic_cursive {
     #[doc = "\u{109A0}"]
@@ -38057,6 +38451,8 @@ pub mod meroitic_cursive {
     pub const MEROITIC_CURSIVE_FRACTION_NINE_TWELFTHS: &str = "\u{109FE}";
     #[doc = "\u{109FF}"]
     pub const MEROITIC_CURSIVE_FRACTION_TEN_TWELFTHS: &str = "\u{109FF}";
+}
+
 /// 10A00..10A5F
 pub mod kharoshthi {
     #[doc = "\u{10A00}"]
@@ -38195,6 +38591,8 @@ pub mod kharoshthi {
     pub const KHAROSHTHI_PUNCTUATION_DOUBLE_DANDA: &str = "\u{10A57}";
     #[doc = "\u{10A58}"]
     pub const KHAROSHTHI_PUNCTUATION_LINES: &str = "\u{10A58}";
+}
+
 /// 10A60..10A7F
 pub mod old_south_arabian {
     #[doc = "\u{10A60}"]
@@ -38261,6 +38659,8 @@ pub mod old_south_arabian {
     pub const OLD_SOUTH_ARABIAN_NUMBER_FIFTY: &str = "\u{10A7E}";
     #[doc = "\u{10A7F}"]
     pub const OLD_SOUTH_ARABIAN_NUMERIC_INDICATOR: &str = "\u{10A7F}";
+}
+
 /// 10A80..10A9F
 pub mod old_north_arabian {
     #[doc = "\u{10A80}"]
@@ -38327,6 +38727,8 @@ pub mod old_north_arabian {
     pub const OLD_NORTH_ARABIAN_NUMBER_TEN: &str = "\u{10A9E}";
     #[doc = "\u{10A9F}"]
     pub const OLD_NORTH_ARABIAN_NUMBER_TWENTY: &str = "\u{10A9F}";
+}
+
 /// 10AC0..10AFF
 pub mod manichaean {
     #[doc = "\u{10AC0}"]
@@ -38431,6 +38833,8 @@ pub mod manichaean {
     pub const MANICHAEAN_PUNCTUATION_TWO_DOTS: &str = "\u{10AF5}";
     #[doc = "\u{10AF6}"]
     pub const MANICHAEAN_PUNCTUATION_LINE_FILLER: &str = "\u{10AF6}";
+}
+
 /// 10B00..10B3F
 pub mod avestan {
     #[doc = "\u{10B00}"]
@@ -38555,6 +38959,8 @@ pub mod avestan {
     pub const LARGE_TWO_RINGS_OVER_ONE_RING_PUNCTUATION: &str = "\u{10B3E}";
     #[doc = "\u{10B3F}"]
     pub const LARGE_ONE_RING_OVER_TWO_RINGS_PUNCTUATION: &str = "\u{10B3F}";
+}
+
 /// 10B40..10B5F
 pub mod inscriptional_parthian {
     #[doc = "\u{10B40}"]
@@ -38617,6 +39023,8 @@ pub mod inscriptional_parthian {
     pub const INSCRIPTIONAL_PARTHIAN_NUMBER_ONE_HUNDRED: &str = "\u{10B5E}";
     #[doc = "\u{10B5F}"]
     pub const INSCRIPTIONAL_PARTHIAN_NUMBER_ONE_THOUSAND: &str = "\u{10B5F}";
+}
+
 /// 10B60..10B7F
 pub mod inscriptional_pahlavi {
     #[doc = "\u{10B60}"]
@@ -38673,6 +39081,8 @@ pub mod inscriptional_pahlavi {
     pub const INSCRIPTIONAL_PAHLAVI_NUMBER_ONE_HUNDRED: &str = "\u{10B7E}";
     #[doc = "\u{10B7F}"]
     pub const INSCRIPTIONAL_PAHLAVI_NUMBER_ONE_THOUSAND: &str = "\u{10B7F}";
+}
+
 /// 10B80..10BAF
 pub mod psalter_pahlavi {
     #[doc = "\u{10B80}"]
@@ -38733,6 +39143,8 @@ pub mod psalter_pahlavi {
     pub const PSALTER_PAHLAVI_NUMBER_TWENTY: &str = "\u{10BAE}";
     #[doc = "\u{10BAF}"]
     pub const PSALTER_PAHLAVI_NUMBER_ONE_HUNDRED: &str = "\u{10BAF}";
+}
+
 /// 10C00..10C4F
 pub mod old_turkic {
     #[doc = "\u{10C00}"]
@@ -38881,6 +39293,8 @@ pub mod old_turkic {
     pub const OLD_TURKIC_LETTER_ORKHON_OT: &str = "\u{10C47}";
     #[doc = "\u{10C48}"]
     pub const OLD_TURKIC_LETTER_ORKHON_BASH: &str = "\u{10C48}";
+}
+
 /// 10C80..10CFF
 pub mod old_hungarian {
     #[doc = "\u{10C80}"]
@@ -39099,6 +39513,8 @@ pub mod old_hungarian {
     pub const OLD_HUNGARIAN_NUMBER_ONE_HUNDRED: &str = "\u{10CFE}";
     #[doc = "\u{10CFF}"]
     pub const OLD_HUNGARIAN_NUMBER_ONE_THOUSAND: &str = "\u{10CFF}";
+}
+
 /// 10D00..10D3F
 pub mod hanifi_rohingya {
     #[doc = "\u{10D00}"]
@@ -39201,6 +39617,8 @@ pub mod hanifi_rohingya {
     pub const HANIFI_ROHINGYA_DIGIT_EIGHT: &str = "\u{10D38}";
     #[doc = "\u{10D39}"]
     pub const HANIFI_ROHINGYA_DIGIT_NINE: &str = "\u{10D39}";
+}
+
 /// 10D40..10D8F
 pub mod garay {
     #[doc = "\u{10D40}"]
@@ -39341,6 +39759,8 @@ pub mod garay {
     pub const GARAY_PLUS_SIGN: &str = "\u{10D8E}";
     #[doc = "\u{10D8F}"]
     pub const GARAY_MINUS_SIGN: &str = "\u{10D8F}";
+}
+
 /// 10E60..10E7F
 pub mod rumi_numeral_symbols {
     #[doc = "\u{10E60}"]
@@ -39405,6 +39825,8 @@ pub mod rumi_numeral_symbols {
     pub const RUMI_FRACTION_ONE_THIRD: &str = "\u{10E7D}";
     #[doc = "\u{10E7E}"]
     pub const RUMI_FRACTION_TWO_THIRDS: &str = "\u{10E7E}";
+}
+
 /// 10E80..10EBF
 pub mod yezidi {
     #[doc = "\u{10E80}"]
@@ -39501,6 +39923,8 @@ pub mod yezidi {
     pub const YEZIDI_LETTER_LAM_WITH_DOT_ABOVE: &str = "\u{10EB0}";
     #[doc = "\u{10EB1}"]
     pub const YEZIDI_LETTER_YOT_WITH_CIRCUMFLEX_ABOVE: &str = "\u{10EB1}";
+}
+
 /// 10EC0..10EFF
 pub mod arabic_extended_c {
     #[doc = "\u{10EC2}"]
@@ -39545,6 +39969,8 @@ pub mod arabic_extended_c {
     pub const ARABIC_SMALL_LOW_WORD_QASR: &str = "\u{10EFE}";
     #[doc = "\u{10EFF}"]
     pub const ARABIC_SMALL_LOW_WORD_MADDA: &str = "\u{10EFF}";
+}
+
 /// 10F00..10F2F
 pub mod old_sogdian {
     #[doc = "\u{10F00}"]
@@ -39627,6 +40053,8 @@ pub mod old_sogdian {
     pub const OLD_SOGDIAN_FRACTION_ONE_HALF: &str = "\u{10F26}";
     #[doc = "\u{10F27}"]
     pub const OLD_SOGDIAN_LIGATURE_AYIN_DALETH: &str = "\u{10F27}";
+}
+
 /// 10F30..10F6F
 pub mod sogdian {
     #[doc = "\u{10F30}"]
@@ -39713,6 +40141,8 @@ pub mod sogdian {
     pub const SOGDIAN_PUNCTUATION_TWO_CIRCLES_WITH_DOTS: &str = "\u{10F58}";
     #[doc = "\u{10F59}"]
     pub const SOGDIAN_PUNCTUATION_HALF_CIRCLE_WITH_DOT: &str = "\u{10F59}";
+}
+
 /// 10F70..10FAF
 pub mod old_uyghur {
     #[doc = "\u{10F70}"]
@@ -39767,6 +40197,8 @@ pub mod old_uyghur {
     pub const OLD_UYGHUR_PUNCTUATION_TWO_DOTS: &str = "\u{10F88}";
     #[doc = "\u{10F89}"]
     pub const OLD_UYGHUR_PUNCTUATION_FOUR_DOTS: &str = "\u{10F89}";
+}
+
 /// 10FB0..10FDF
 pub mod chorasmian {
     #[doc = "\u{10FB0}"]
@@ -39825,6 +40257,8 @@ pub mod chorasmian {
     pub const CHORASMIAN_NUMBER_TWENTY: &str = "\u{10FCA}";
     #[doc = "\u{10FCB}"]
     pub const CHORASMIAN_NUMBER_ONE_HUNDRED: &str = "\u{10FCB}";
+}
+
 /// 10FE0..10FFF
 pub mod elymaic {
     #[doc = "\u{10FE0}"]
@@ -39873,6 +40307,8 @@ pub mod elymaic {
     pub const ELYMAIC_LETTER_TAW: &str = "\u{10FF5}";
     #[doc = "\u{10FF6}"]
     pub const ELYMAIC_LIGATURE_ZAYIN_YODH: &str = "\u{10FF6}";
+}
+
 /// 11000..1107F
 pub mod brahmi {
     #[doc = "\u{11000}"]
@@ -40105,6 +40541,8 @@ pub mod brahmi {
     pub const BRAHMI_LETTER_OLD_TAMIL_LLA: &str = "\u{11075}";
     #[doc = "\u{1107F}"]
     pub const BRAHMI_NUMBER_JOINER: &str = "\u{1107F}";
+}
+
 /// 11080..110CF
 pub mod kaithi {
     #[doc = "\u{11080}"]
@@ -40243,6 +40681,8 @@ pub mod kaithi {
     pub const KAITHI_VOWEL_SIGN_VOCALIC_R: &str = "\u{110C2}";
     #[doc = "\u{110CD}"]
     pub const KAITHI_NUMBER_SIGN_ABOVE: &str = "\u{110CD}";
+}
+
 /// 110D0..110FF
 pub mod sora_sompeng {
     #[doc = "\u{110D0}"]
@@ -40315,6 +40755,8 @@ pub mod sora_sompeng {
     pub const SORA_SOMPENG_DIGIT_EIGHT: &str = "\u{110F8}";
     #[doc = "\u{110F9}"]
     pub const SORA_SOMPENG_DIGIT_NINE: &str = "\u{110F9}";
+}
+
 /// 11100..1114F
 pub mod chakma {
     #[doc = "\u{11100}"]
@@ -40459,6 +40901,8 @@ pub mod chakma {
     pub const CHAKMA_VOWEL_SIGN_EI: &str = "\u{11146}";
     #[doc = "\u{11147}"]
     pub const CHAKMA_LETTER_VAA: &str = "\u{11147}";
+}
+
 /// 11150..1117F
 pub mod mahajani {
     #[doc = "\u{11150}"]
@@ -40539,6 +40983,8 @@ pub mod mahajani {
     pub const MAHAJANI_SECTION_MARK: &str = "\u{11175}";
     #[doc = "\u{11176}"]
     pub const MAHAJANI_LIGATURE_SHRI: &str = "\u{11176}";
+}
+
 /// 11180..111DF
 pub mod sharada {
     #[doc = "\u{11180}"]
@@ -40733,6 +41179,8 @@ pub mod sharada {
     pub const SHARADA_SECTION_MARK_1: &str = "\u{111DE}";
     #[doc = "\u{111DF}"]
     pub const SHARADA_SECTION_MARK_2: &str = "\u{111DF}";
+}
+
 /// 111E0..111FF
 pub mod sinhala_archaic_numbers {
     #[doc = "\u{111E1}"]
@@ -40775,6 +41223,8 @@ pub mod sinhala_archaic_numbers {
     pub const SINHALA_ARCHAIC_NUMBER_ONE_HUNDRED: &str = "\u{111F3}";
     #[doc = "\u{111F4}"]
     pub const SINHALA_ARCHAIC_NUMBER_ONE_THOUSAND: &str = "\u{111F4}";
+}
+
 /// 11200..1124F
 pub mod khojki {
     #[doc = "\u{11200}"]
@@ -40907,6 +41357,8 @@ pub mod khojki {
     pub const KHOJKI_LETTER_SHORT_I: &str = "\u{11240}";
     #[doc = "\u{11241}"]
     pub const KHOJKI_VOWEL_SIGN_VOCALIC_R: &str = "\u{11241}";
+}
+
 /// 11280..112AF
 pub mod multani {
     #[doc = "\u{11280}"]
@@ -40985,6 +41437,8 @@ pub mod multani {
     pub const MULTANI_LETTER_RHA: &str = "\u{112A8}";
     #[doc = "\u{112A9}"]
     pub const MULTANI_SECTION_MARK: &str = "\u{112A9}";
+}
+
 /// 112B0..112FF
 pub mod khudawadi {
     #[doc = "\u{112B0}"]
@@ -41125,6 +41579,8 @@ pub mod khudawadi {
     pub const KHUDAWADI_DIGIT_EIGHT: &str = "\u{112F8}";
     #[doc = "\u{112F9}"]
     pub const KHUDAWADI_DIGIT_NINE: &str = "\u{112F9}";
+}
+
 /// 11300..1137F
 pub mod grantha {
     #[doc = "\u{11300}"]
@@ -41299,6 +41755,8 @@ pub mod grantha {
     pub const COMBINING_GRANTHA_LETTER_VI: &str = "\u{11373}";
     #[doc = "\u{11374}"]
     pub const COMBINING_GRANTHA_LETTER_PA: &str = "\u{11374}";
+}
+
 /// 11380..113FF
 pub mod tulu_tigalari {
     #[doc = "\u{11380}"]
@@ -41461,6 +41919,8 @@ pub mod tulu_tigalari {
     pub const TULU_TIGALARI_VEDIC_TONE_SVARITA: &str = "\u{113E1}";
     #[doc = "\u{113E2}"]
     pub const TULU_TIGALARI_VEDIC_TONE_ANUDATTA: &str = "\u{113E2}";
+}
+
 /// 11400..1147F
 pub mod newa {
     #[doc = "\u{11400}"]
@@ -41657,6 +42117,8 @@ pub mod newa {
     pub const NEWA_SIGN_JIHVAMULIYA: &str = "\u{11460}";
     #[doc = "\u{11461}"]
     pub const NEWA_SIGN_UPADHMANIYA: &str = "\u{11461}";
+}
+
 /// 11480..114DF
 pub mod tirhuta {
     #[doc = "\u{11480}"]
@@ -41823,6 +42285,8 @@ pub mod tirhuta {
     pub const TIRHUTA_DIGIT_EIGHT: &str = "\u{114D8}";
     #[doc = "\u{114D9}"]
     pub const TIRHUTA_DIGIT_NINE: &str = "\u{114D9}";
+}
+
 /// 11580..115FF
 pub mod siddham {
     #[doc = "\u{11580}"]
@@ -42009,6 +42473,8 @@ pub mod siddham {
     pub const SIDDHAM_VOWEL_SIGN_ALTERNATE_U: &str = "\u{115DC}";
     #[doc = "\u{115DD}"]
     pub const SIDDHAM_VOWEL_SIGN_ALTERNATE_UU: &str = "\u{115DD}";
+}
+
 /// 11600..1165F
 pub mod modi {
     #[doc = "\u{11600}"]
@@ -42169,6 +42635,8 @@ pub mod modi {
     pub const MODI_DIGIT_EIGHT: &str = "\u{11658}";
     #[doc = "\u{11659}"]
     pub const MODI_DIGIT_NINE: &str = "\u{11659}";
+}
+
 /// 11660..1167F
 pub mod mongolian_supplement {
     #[doc = "\u{11660}"]
@@ -42197,6 +42665,8 @@ pub mod mongolian_supplement {
     pub const MONGOLIAN_SWIRL_BIRGA_WITH_DOUBLE_ORNAMENT: &str = "\u{1166B}";
     #[doc = "\u{1166C}"]
     pub const MONGOLIAN_TURNED_SWIRL_BIRGA_WITH_DOUBLE_ORNAMENT: &str = "\u{1166C}";
+}
+
 /// 11680..116CF
 pub mod takri {
     #[doc = "\u{11680}"]
@@ -42335,6 +42805,8 @@ pub mod takri {
     pub const TAKRI_DIGIT_EIGHT: &str = "\u{116C8}";
     #[doc = "\u{116C9}"]
     pub const TAKRI_DIGIT_NINE: &str = "\u{116C9}";
+}
+
 /// 116D0..116FF
 pub mod myanmar_extended_c {
     #[doc = "\u{116D0}"]
@@ -42377,6 +42849,8 @@ pub mod myanmar_extended_c {
     pub const MYANMAR_EASTERN_PWO_KAREN_DIGIT_EIGHT: &str = "\u{116E2}";
     #[doc = "\u{116E3}"]
     pub const MYANMAR_EASTERN_PWO_KAREN_DIGIT_NINE: &str = "\u{116E3}";
+}
+
 /// 11700..1174F
 pub mod ahom {
     #[doc = "\u{11700}"]
@@ -42509,6 +42983,8 @@ pub mod ahom {
     pub const AHOM_LETTER_NNA: &str = "\u{11745}";
     #[doc = "\u{11746}"]
     pub const AHOM_LETTER_LLA: &str = "\u{11746}";
+}
+
 /// 11800..1184F
 pub mod dogra {
     #[doc = "\u{11800}"]
@@ -42631,6 +43107,8 @@ pub mod dogra {
     pub const DOGRA_SIGN_NUKTA: &str = "\u{1183A}";
     #[doc = "\u{1183B}"]
     pub const DOGRA_ABBREVIATION_SIGN: &str = "\u{1183B}";
+}
+
 /// 118A0..118FF
 pub mod warang_citi {
     #[doc = "\u{118A0}"]
@@ -42801,6 +43279,8 @@ pub mod warang_citi {
     pub const WARANG_CITI_NUMBER_NINETY: &str = "\u{118F2}";
     #[doc = "\u{118FF}"]
     pub const WARANG_CITI_OM: &str = "\u{118FF}";
+}
+
 /// 11900..1195F
 pub mod dives_akuru {
     #[doc = "\u{11900}"]
@@ -42947,6 +43427,8 @@ pub mod dives_akuru {
     pub const DIVES_AKURU_DIGIT_EIGHT: &str = "\u{11958}";
     #[doc = "\u{11959}"]
     pub const DIVES_AKURU_DIGIT_NINE: &str = "\u{11959}";
+}
+
 /// 119A0..119FF
 pub mod nandinagari {
     #[doc = "\u{119A0}"]
@@ -43079,6 +43561,8 @@ pub mod nandinagari {
     pub const NANDINAGARI_HEADSTROKE: &str = "\u{119E3}";
     #[doc = "\u{119E4}"]
     pub const NANDINAGARI_VOWEL_SIGN_PRISHTHAMATRA_E: &str = "\u{119E4}";
+}
+
 /// 11A00..11A4F
 pub mod zanabazar_square {
     #[doc = "\u{11A00}"]
@@ -43225,6 +43709,8 @@ pub mod zanabazar_square {
     pub const ZANABAZAR_SQUARE_CLOSING_DOUBLE_LINED_HEAD_MARK: &str = "\u{11A46}";
     #[doc = "\u{11A47}"]
     pub const ZANABAZAR_SQUARE_SUBJOINER: &str = "\u{11A47}";
+}
+
 /// 11A50..11AAF
 pub mod soyombo {
     #[doc = "\u{11A50}"]
@@ -43393,6 +43879,8 @@ pub mod soyombo {
     pub const SOYOMBO_TERMINAL_MARK_1: &str = "\u{11AA1}";
     #[doc = "\u{11AA2}"]
     pub const SOYOMBO_TERMINAL_MARK_2: &str = "\u{11AA2}";
+}
+
 /// 11AB0..11ABF
 pub mod unified_canadian_aboriginal_syllabics_extended_a {
     #[doc = "\u{11AB0}"]
@@ -43427,6 +43915,8 @@ pub mod unified_canadian_aboriginal_syllabics_extended_a {
     pub const CANADIAN_SYLLABICS_SPO: &str = "\u{11ABE}";
     #[doc = "\u{11ABF}"]
     pub const CANADIAN_SYLLABICS_SPA: &str = "\u{11ABF}";
+}
+
 /// 11AC0..11AFF
 pub mod pau_cin_hau {
     #[doc = "\u{11AC0}"]
@@ -43543,6 +44033,8 @@ pub mod pau_cin_hau {
     pub const PAU_CIN_HAU_LOW_FALLING_TONE_FINAL: &str = "\u{11AF7}";
     #[doc = "\u{11AF8}"]
     pub const PAU_CIN_HAU_GLOTTAL_STOP_FINAL: &str = "\u{11AF8}";
+}
+
 /// 11B00..11B5F
 pub mod devanagari_extended_a {
     #[doc = "\u{11B00}"]
@@ -43565,6 +44057,8 @@ pub mod devanagari_extended_a {
     pub const DEVANAGARI_SIGN_REVERSED_NINE_LIKE_BHALE: &str = "\u{11B08}";
     #[doc = "\u{11B09}"]
     pub const DEVANAGARI_SIGN_MINDU: &str = "\u{11B09}";
+}
+
 /// 11B60..11B7F
 pub mod sharada_supplement {
     #[doc = "\u{11B60}"]
@@ -43583,6 +44077,8 @@ pub mod sharada_supplement {
     pub const SHARADA_VOWEL_SIGN_CANDRA_E: &str = "\u{11B66}";
     #[doc = "\u{11B67}"]
     pub const SHARADA_VOWEL_SIGN_CANDRA_O: &str = "\u{11B67}";
+}
+
 /// 11BC0..11BFF
 pub mod sunuwar {
     #[doc = "\u{11BC0}"]
@@ -43673,6 +44169,8 @@ pub mod sunuwar {
     pub const SUNUWAR_DIGIT_EIGHT: &str = "\u{11BF8}";
     #[doc = "\u{11BF9}"]
     pub const SUNUWAR_DIGIT_NINE: &str = "\u{11BF9}";
+}
+
 /// 11C00..11C6F
 pub mod bhaiksuki {
     #[doc = "\u{11C00}"]
@@ -43869,6 +44367,8 @@ pub mod bhaiksuki {
     pub const BHAIKSUKI_NUMBER_NINETY: &str = "\u{11C6B}";
     #[doc = "\u{11C6C}"]
     pub const BHAIKSUKI_HUNDREDS_UNIT_MARK: &str = "\u{11C6C}";
+}
+
 /// 11C70..11CBF
 pub mod marchen {
     #[doc = "\u{11C70}"]
@@ -44007,6 +44507,8 @@ pub mod marchen {
     pub const MARCHEN_SIGN_ANUSVARA: &str = "\u{11CB5}";
     #[doc = "\u{11CB6}"]
     pub const MARCHEN_SIGN_CANDRABINDU: &str = "\u{11CB6}";
+}
+
 /// 11D00..11D5F
 pub mod masaram_gondi {
     #[doc = "\u{11D00}"]
@@ -44159,6 +44661,8 @@ pub mod masaram_gondi {
     pub const MASARAM_GONDI_DIGIT_EIGHT: &str = "\u{11D58}";
     #[doc = "\u{11D59}"]
     pub const MASARAM_GONDI_DIGIT_NINE: &str = "\u{11D59}";
+}
+
 /// 11D60..11DAF
 pub mod gunjala_gondi {
     #[doc = "\u{11D60}"]
@@ -44287,6 +44791,8 @@ pub mod gunjala_gondi {
     pub const GUNJALA_GONDI_DIGIT_EIGHT: &str = "\u{11DA8}";
     #[doc = "\u{11DA9}"]
     pub const GUNJALA_GONDI_DIGIT_NINE: &str = "\u{11DA9}";
+}
+
 /// 11DB0..11DEF
 pub mod tolong_siki {
     #[doc = "\u{11DB0}"]
@@ -44397,6 +44903,8 @@ pub mod tolong_siki {
     pub const TOLONG_SIKI_DIGIT_EIGHT: &str = "\u{11DE8}";
     #[doc = "\u{11DE9}"]
     pub const TOLONG_SIKI_DIGIT_NINE: &str = "\u{11DE9}";
+}
+
 /// 11EE0..11EFF
 pub mod makasar {
     #[doc = "\u{11EE0}"]
@@ -44449,6 +44957,8 @@ pub mod makasar {
     pub const MAKASAR_PASSIMBANG: &str = "\u{11EF7}";
     #[doc = "\u{11EF8}"]
     pub const MAKASAR_END_OF_SECTION: &str = "\u{11EF8}";
+}
+
 /// 11F00..11F5F
 pub mod kawi {
     #[doc = "\u{11F00}"]
@@ -44625,10 +45135,14 @@ pub mod kawi {
     pub const KAWI_DIGIT_NINE: &str = "\u{11F59}";
     #[doc = "\u{11F5A}"]
     pub const KAWI_SIGN_NUKTA: &str = "\u{11F5A}";
+}
+
 /// 11FB0..11FBF
 pub mod lisu_supplement {
     #[doc = "\u{11FB0}"]
     pub const LISU_LETTER_YHA: &str = "\u{11FB0}";
+}
+
 /// 11FC0..11FFF
 pub mod tamil_supplement {
     #[doc = "\u{11FC0}"]
@@ -44733,6 +45247,8 @@ pub mod tamil_supplement {
     pub const TAMIL_SIGN_VAKAIYARAA: &str = "\u{11FF1}";
     #[doc = "\u{11FFF}"]
     pub const TAMIL_PUNCTUATION_END_OF_TEXT: &str = "\u{11FFF}";
+}
+
 /// 12000..123FF
 pub mod cuneiform {
     #[doc = "\u{12000}"]
@@ -46579,6 +47095,8 @@ pub mod cuneiform {
     pub const CUNEIFORM_SIGN_UM_TIMES_ME: &str = "\u{12398}";
     #[doc = "\u{12399}"]
     pub const CUNEIFORM_SIGN_U_U: &str = "\u{12399}";
+}
+
 /// 12400..1247F
 pub mod cuneiform_numbers_and_punctuation {
     #[doc = "\u{12400}"]
@@ -46813,6 +47331,8 @@ pub mod cuneiform_numbers_and_punctuation {
     pub const CUNEIFORM_PUNCTUATION_SIGN_DIAGONAL_TRICOLON: &str = "\u{12473}";
     #[doc = "\u{12474}"]
     pub const CUNEIFORM_PUNCTUATION_SIGN_DIAGONAL_QUADCOLON: &str = "\u{12474}";
+}
+
 /// 12480..1254F
 pub mod early_dynastic_cuneiform {
     #[doc = "\u{12480}"]
@@ -47207,6 +47727,8 @@ pub mod early_dynastic_cuneiform {
     pub const CUNEIFORM_SIGN_ZU_OVER_ZU_PLUS_SAR: &str = "\u{12542}";
     #[doc = "\u{12543}"]
     pub const CUNEIFORM_SIGN_ZU5_TIMES_THREE_DISH_TENU: &str = "\u{12543}";
+}
+
 /// 12F90..12FFF
 pub mod cypro_minoan {
     #[doc = "\u{12F90}"]
@@ -47407,6 +47929,8 @@ pub mod cypro_minoan {
     pub const CYPRO_MINOAN_SIGN_CM301: &str = "\u{12FF1}";
     #[doc = "\u{12FF2}"]
     pub const CYPRO_MINOAN_SIGN_CM302: &str = "\u{12FF2}";
+}
+
 /// 13000..1342F
 pub mod egyptian_hieroglyphs {
     #[doc = "\u{13000}"]
@@ -49553,6 +50077,8 @@ pub mod egyptian_hieroglyphs {
     pub const EGYPTIAN_HIEROGLYPH_AA032: &str = "\u{1342E}";
     #[doc = "\u{1342F}"]
     pub const EGYPTIAN_HIEROGLYPH_V011D: &str = "\u{1342F}";
+}
+
 /// 13430..1345F
 pub mod egyptian_hieroglyph_format_controls {
     #[doc = "\u{13430}"]
@@ -49631,6 +50157,8 @@ pub mod egyptian_hieroglyph_format_controls {
     pub const EGYPTIAN_HIEROGLYPH_MODIFIER_DAMAGED_AT_BOTTOM_AND_END: &str = "\u{13454}";
     #[doc = "\u{13455}"]
     pub const EGYPTIAN_HIEROGLYPH_MODIFIER_DAMAGED: &str = "\u{13455}";
+}
+
 /// 13460..143FF
 pub mod egyptian_hieroglyphs_extended_a {
     #[doc = "\u{13460}"]
@@ -57623,6 +58151,8 @@ pub mod egyptian_hieroglyphs_extended_a {
     pub const EGYPTIAN_HIEROGLYPH_143F9: &str = "\u{143F9}";
     #[doc = "\u{143FA}"]
     pub const EGYPTIAN_HIEROGLYPH_143FA: &str = "\u{143FA}";
+}
+
 /// 14400..1467F
 pub mod anatolian_hieroglyphs {
     #[doc = "\u{14400}"]
@@ -58791,6 +59321,8 @@ pub mod anatolian_hieroglyphs {
     pub const ANATOLIAN_HIEROGLYPH_A529: &str = "\u{14645}";
     #[doc = "\u{14646}"]
     pub const ANATOLIAN_HIEROGLYPH_A530: &str = "\u{14646}";
+}
+
 /// 16100..1613F
 pub mod gurung_khema {
     #[doc = "\u{16100}"]
@@ -58909,6 +59441,8 @@ pub mod gurung_khema {
     pub const GURUNG_KHEMA_DIGIT_EIGHT: &str = "\u{16138}";
     #[doc = "\u{16139}"]
     pub const GURUNG_KHEMA_DIGIT_NINE: &str = "\u{16139}";
+}
+
 /// 16800..16A3F
 pub mod bamum_supplement {
     #[doc = "\u{16800}"]
@@ -60049,6 +60583,8 @@ pub mod bamum_supplement {
     pub const BAMUM_LETTER_PHASE_F_SAMBA: &str = "\u{16A37}";
     #[doc = "\u{16A38}"]
     pub const BAMUM_LETTER_PHASE_F_VUEQ: &str = "\u{16A38}";
+}
+
 /// 16A40..16A6F
 pub mod mro {
     #[doc = "\u{16A40}"]
@@ -60137,6 +60673,8 @@ pub mod mro {
     pub const MRO_DANDA: &str = "\u{16A6E}";
     #[doc = "\u{16A6F}"]
     pub const MRO_DOUBLE_DANDA: &str = "\u{16A6F}";
+}
+
 /// 16A70..16ACF
 pub mod tangsa {
     #[doc = "\u{16A70}"]
@@ -60317,6 +60855,8 @@ pub mod tangsa {
     pub const TANGSA_DIGIT_EIGHT: &str = "\u{16AC8}";
     #[doc = "\u{16AC9}"]
     pub const TANGSA_DIGIT_NINE: &str = "\u{16AC9}";
+}
+
 /// 16AD0..16AFF
 pub mod bassa_vah {
     #[doc = "\u{16AD0}"]
@@ -60391,6 +60931,8 @@ pub mod bassa_vah {
     pub const BASSA_VAH_COMBINING_HIGH_LOW_TONE: &str = "\u{16AF4}";
     #[doc = "\u{16AF5}"]
     pub const BASSA_VAH_FULL_STOP: &str = "\u{16AF5}";
+}
+
 /// 16B00..16B8F
 pub mod pahawh_hmong {
     #[doc = "\u{16B00}"]
@@ -60647,6 +61189,8 @@ pub mod pahawh_hmong {
     pub const PAHAWH_HMONG_CLAN_SIGN_KWM: &str = "\u{16B8E}";
     #[doc = "\u{16B8F}"]
     pub const PAHAWH_HMONG_CLAN_SIGN_VWJ: &str = "\u{16B8F}";
+}
+
 /// 16D40..16D7F
 pub mod kirat_rai {
     #[doc = "\u{16D40}"]
@@ -60765,6 +61309,8 @@ pub mod kirat_rai {
     pub const KIRAT_RAI_DIGIT_EIGHT: &str = "\u{16D78}";
     #[doc = "\u{16D79}"]
     pub const KIRAT_RAI_DIGIT_NINE: &str = "\u{16D79}";
+}
+
 /// 16E40..16E9F
 pub mod medefaidrin {
     #[doc = "\u{16E40}"]
@@ -60949,6 +61495,8 @@ pub mod medefaidrin {
     pub const MEDEFAIDRIN_SYMBOL_AIVA: &str = "\u{16E99}";
     #[doc = "\u{16E9A}"]
     pub const MEDEFAIDRIN_EXCLAMATION_OH: &str = "\u{16E9A}";
+}
+
 /// 16EA0..16EDF
 pub mod beria_erfe {
     #[doc = "\u{16EA0}"]
@@ -61051,6 +61599,8 @@ pub mod beria_erfe {
     pub const BERIA_ERFE_SMALL_LETTER_WASSE: &str = "\u{16ED2}";
     #[doc = "\u{16ED3}"]
     pub const BERIA_ERFE_SMALL_LETTER_AY: &str = "\u{16ED3}";
+}
+
 /// 16F00..16F9F
 pub mod miao {
     #[doc = "\u{16F00}"]
@@ -61351,6 +61901,8 @@ pub mod miao {
     pub const MIAO_LETTER_REFORMED_TONE_6: &str = "\u{16F9E}";
     #[doc = "\u{16F9F}"]
     pub const MIAO_LETTER_REFORMED_TONE_8: &str = "\u{16F9F}";
+}
+
 /// 16FE0..16FFF
 pub mod ideographic_symbols_and_punctuation {
     #[doc = "\u{16FE0}"]
@@ -61377,8 +61929,12 @@ pub mod ideographic_symbols_and_punctuation {
     pub const YANGQIN_SIGN_SLOW_THREE_HALF_BEATS: &str = "\u{16FF5}";
     #[doc = "\u{16FF6}"]
     pub const YANGQIN_SIGN_SLOW_TWO_BEATS: &str = "\u{16FF6}";
+}
+
 /// 17000..187FF
 pub mod tangut {
+}
+
 /// 18800..18AFF
 pub mod tangut_components {
     #[doc = "\u{18800}"]
@@ -62917,6 +63473,8 @@ pub mod tangut_components {
     pub const TANGUT_COMPONENT_767: &str = "\u{18AFE}";
     #[doc = "\u{18AFF}"]
     pub const TANGUT_COMPONENT_768: &str = "\u{18AFF}";
+}
+
 /// 18B00..18CFF
 pub mod khitan_small_script {
     #[doc = "\u{18B00}"]
@@ -63861,8 +64419,12 @@ pub mod khitan_small_script {
     pub const KHITAN_SMALL_SCRIPT_CHARACTER_18CD5: &str = "\u{18CD5}";
     #[doc = "\u{18CFF}"]
     pub const KHITAN_SMALL_SCRIPT_CHARACTER_18CFF: &str = "\u{18CFF}";
+}
+
 /// 18D00..18D7F
 pub mod tangut_supplement {
+}
+
 /// 18D80..18DFF
 pub mod tangut_components_supplement {
     #[doc = "\u{18D80}"]
@@ -64095,6 +64657,8 @@ pub mod tangut_components_supplement {
     pub const TANGUT_COMPONENT_882: &str = "\u{18DF1}";
     #[doc = "\u{18DF2}"]
     pub const TANGUT_COMPONENT_883: &str = "\u{18DF2}";
+}
+
 /// 1AFF0..1AFFF
 pub mod kana_extended_b {
     #[doc = "\u{1AFF0}"]
@@ -64123,6 +64687,8 @@ pub mod kana_extended_b {
     pub const KATAKANA_LETTER_MINNAN_NASALIZED_TONE_7: &str = "\u{1AFFD}";
     #[doc = "\u{1AFFE}"]
     pub const KATAKANA_LETTER_MINNAN_NASALIZED_TONE_8: &str = "\u{1AFFE}";
+}
+
 /// 1B000..1B0FF
 pub mod kana_supplement {
     #[doc = "\u{1B000}"]
@@ -64637,6 +65203,8 @@ pub mod kana_supplement {
     pub const HENTAIGANA_LETTER_RE_1: &str = "\u{1B0FE}";
     #[doc = "\u{1B0FF}"]
     pub const HENTAIGANA_LETTER_RE_2: &str = "\u{1B0FF}";
+}
+
 /// 1B100..1B12F
 pub mod kana_extended_a {
     #[doc = "\u{1B100}"]
@@ -64709,6 +65277,8 @@ pub mod kana_extended_a {
     pub const KATAKANA_LETTER_ARCHAIC_YE: &str = "\u{1B121}";
     #[doc = "\u{1B122}"]
     pub const KATAKANA_LETTER_ARCHAIC_WU: &str = "\u{1B122}";
+}
+
 /// 1B130..1B16F
 pub mod small_kana_extension {
     #[doc = "\u{1B132}"]
@@ -64729,6 +65299,8 @@ pub mod small_kana_extension {
     pub const KATAKANA_LETTER_SMALL_WO: &str = "\u{1B166}";
     #[doc = "\u{1B167}"]
     pub const KATAKANA_LETTER_SMALL_N: &str = "\u{1B167}";
+}
+
 /// 1B170..1B2FF
 pub mod nushu {
     #[doc = "\u{1B170}"]
@@ -65523,6 +66095,8 @@ pub mod nushu {
     pub const NUSHU_CHARACTER_1B2FA: &str = "\u{1B2FA}";
     #[doc = "\u{1B2FB}"]
     pub const NUSHU_CHARACTER_1B2FB: &str = "\u{1B2FB}";
+}
+
 /// 1BC00..1BC9F
 pub mod duployan {
     #[doc = "\u{1BC00}"]
@@ -65811,6 +66385,8 @@ pub mod duployan {
     pub const DUPLOYAN_DOUBLE_MARK: &str = "\u{1BC9E}";
     #[doc = "\u{1BC9F}"]
     pub const DUPLOYAN_PUNCTUATION_CHINOOK_FULL_STOP: &str = "\u{1BC9F}";
+}
+
 /// 1BCA0..1BCAF
 pub mod shorthand_format_controls {
     #[doc = "\u{1BCA0}"]
@@ -65821,6 +66397,8 @@ pub mod shorthand_format_controls {
     pub const SHORTHAND_FORMAT_DOWN_STEP: &str = "\u{1BCA2}";
     #[doc = "\u{1BCA3}"]
     pub const SHORTHAND_FORMAT_UP_STEP: &str = "\u{1BCA3}";
+}
+
 /// 1CC00..1CEBF
 pub mod symbols_for_legacy_computing_supplement {
     #[doc = "\u{1CC00}"]
@@ -67213,6 +67791,8 @@ pub mod symbols_for_legacy_computing_supplement {
     pub const CHERRY_SYMBOL: &str = "\u{1CEBE}";
     #[doc = "\u{1CEBF}"]
     pub const STRAWBERRY_SYMBOL: &str = "\u{1CEBF}";
+}
+
 /// 1CEC0..1CEFF
 pub mod miscellaneous_symbols_supplement {
     #[doc = "\u{1CEC0}"]
@@ -67283,6 +67863,8 @@ pub mod miscellaneous_symbols_supplement {
     pub const GEOMANTIC_FIGURE_VIA: &str = "\u{1CEEF}";
     #[doc = "\u{1CEF0}"]
     pub const MEDIUM_SMALL_WHITE_CIRCLE_WITH_HORIZONTAL_BAR: &str = "\u{1CEF0}";
+}
+
 /// 1CF00..1CFCF
 pub mod znamenny_musical_notation {
     #[doc = "\u{1CF00}"]
@@ -67655,6 +68237,8 @@ pub mod znamenny_musical_notation {
     pub const ZNAMENNY_NEUME_NEMKA: &str = "\u{1CFC2}";
     #[doc = "\u{1CFC3}"]
     pub const ZNAMENNY_NEUME_PAUK: &str = "\u{1CFC3}";
+}
+
 /// 1D000..1D0FF
 pub mod byzantine_musical_symbols {
     #[doc = "\u{1D000}"]
@@ -68149,6 +68733,8 @@ pub mod byzantine_musical_symbols {
     pub const BYZANTINE_MUSICAL_SYMBOL_KLASMA_KATO: &str = "\u{1D0F4}";
     #[doc = "\u{1D0F5}"]
     pub const BYZANTINE_MUSICAL_SYMBOL_GORGON_NEO_KATO: &str = "\u{1D0F5}";
+}
+
 /// 1D100..1D1FF
 pub mod musical_symbols {
     #[doc = "\u{1D100}"]
@@ -68617,6 +69203,8 @@ pub mod musical_symbols {
     pub const MUSICAL_SYMBOL_SORI: &str = "\u{1D1E9}";
     #[doc = "\u{1D1EA}"]
     pub const MUSICAL_SYMBOL_KORON: &str = "\u{1D1EA}";
+}
+
 /// 1D200..1D24F
 pub mod ancient_greek_musical_notation {
     #[doc = "\u{1D200}"]
@@ -68759,6 +69347,8 @@ pub mod ancient_greek_musical_notation {
     pub const COMBINING_GREEK_MUSICAL_PENTASEME: &str = "\u{1D244}";
     #[doc = "\u{1D245}"]
     pub const GREEK_MUSICAL_LEIMMA: &str = "\u{1D245}";
+}
+
 /// 1D2C0..1D2DF
 pub mod kaktovik_numerals {
     #[doc = "\u{1D2C0}"]
@@ -68801,6 +69391,8 @@ pub mod kaktovik_numerals {
     pub const KAKTOVIK_NUMERAL_EIGHTEEN: &str = "\u{1D2D2}";
     #[doc = "\u{1D2D3}"]
     pub const KAKTOVIK_NUMERAL_NINETEEN: &str = "\u{1D2D3}";
+}
+
 /// 1D2E0..1D2FF
 pub mod mayan_numerals {
     #[doc = "\u{1D2E0}"]
@@ -68843,6 +69435,8 @@ pub mod mayan_numerals {
     pub const MAYAN_NUMERAL_EIGHTEEN: &str = "\u{1D2F2}";
     #[doc = "\u{1D2F3}"]
     pub const MAYAN_NUMERAL_NINETEEN: &str = "\u{1D2F3}";
+}
+
 /// 1D300..1D35F
 pub mod tai_xuan_jing_symbols {
     #[doc = "\u{1D300}"]
@@ -69019,6 +69613,8 @@ pub mod tai_xuan_jing_symbols {
     pub const TETRAGRAM_FOR_LABOURING: &str = "\u{1D355}";
     #[doc = "\u{1D356}"]
     pub const TETRAGRAM_FOR_FOSTERING: &str = "\u{1D356}";
+}
+
 /// 1D360..1D37F
 pub mod counting_rod_numerals {
     #[doc = "\u{1D360}"]
@@ -69071,6 +69667,8 @@ pub mod counting_rod_numerals {
     pub const TALLY_MARK_ONE: &str = "\u{1D377}";
     #[doc = "\u{1D378}"]
     pub const TALLY_MARK_FIVE: &str = "\u{1D378}";
+}
+
 /// 1D400..1D7FF
 pub mod mathematical_alphanumeric_symbols {
     #[doc = "\u{1D400}"]
@@ -71065,6 +71663,8 @@ pub mod mathematical_alphanumeric_symbols {
     pub const MATHEMATICAL_MONOSPACE_DIGIT_EIGHT: &str = "\u{1D7FE}";
     #[doc = "\u{1D7FF}"]
     pub const MATHEMATICAL_MONOSPACE_DIGIT_NINE: &str = "\u{1D7FF}";
+}
+
 /// 1D800..1DAAF
 pub mod sutton_signwriting {
     #[doc = "\u{1D800}"]
@@ -72411,6 +73011,8 @@ pub mod sutton_signwriting {
     pub const SIGNWRITING_ROTATION_MODIFIER_15: &str = "\u{1DAAE}";
     #[doc = "\u{1DAAF}"]
     pub const SIGNWRITING_ROTATION_MODIFIER_16: &str = "\u{1DAAF}";
+}
+
 /// 1DF00..1DFFF
 pub mod latin_extended_g {
     #[doc = "\u{1DF00}"]
@@ -72487,6 +73089,8 @@ pub mod latin_extended_g {
     pub const LATIN_SMALL_LETTER_S_WITH_MID_HEIGHT_LEFT_HOOK: &str = "\u{1DF29}";
     #[doc = "\u{1DF2A}"]
     pub const LATIN_SMALL_LETTER_T_WITH_MID_HEIGHT_LEFT_HOOK: &str = "\u{1DF2A}";
+}
+
 /// 1E000..1E02F
 pub mod glagolitic_supplement {
     #[doc = "\u{1E000}"]
@@ -72565,6 +73169,8 @@ pub mod glagolitic_supplement {
     pub const COMBINING_GLAGOLITIC_LETTER_IOTATED_BIG_YUS: &str = "\u{1E029}";
     #[doc = "\u{1E02A}"]
     pub const COMBINING_GLAGOLITIC_LETTER_FITA: &str = "\u{1E02A}";
+}
+
 /// 1E030..1E08F
 pub mod cyrillic_extended_d {
     #[doc = "\u{1E030}"]
@@ -72693,6 +73299,8 @@ pub mod cyrillic_extended_d {
     pub const MODIFIER_LETTER_CYRILLIC_SMALL_STRAIGHT_U_WITH_STROKE: &str = "\u{1E06D}";
     #[doc = "\u{1E08F}"]
     pub const COMBINING_CYRILLIC_SMALL_LETTER_BYELORUSSIAN_UKRAINIAN_I: &str = "\u{1E08F}";
+}
+
 /// 1E100..1E14F
 pub mod nyiakeng_puachue_hmong {
     #[doc = "\u{1E100}"]
@@ -72837,6 +73445,8 @@ pub mod nyiakeng_puachue_hmong {
     pub const NYIAKENG_PUACHUE_HMONG_LOGOGRAM_NYAJ: &str = "\u{1E14E}";
     #[doc = "\u{1E14F}"]
     pub const NYIAKENG_PUACHUE_HMONG_CIRCLED_CA: &str = "\u{1E14F}";
+}
+
 /// 1E290..1E2BF
 pub mod toto {
     #[doc = "\u{1E290}"]
@@ -72901,6 +73511,8 @@ pub mod toto {
     pub const TOTO_LETTER_A: &str = "\u{1E2AD}";
     #[doc = "\u{1E2AE}"]
     pub const TOTO_SIGN_RISING_TONE: &str = "\u{1E2AE}";
+}
+
 /// 1E2C0..1E2FF
 pub mod wancho {
     #[doc = "\u{1E2C0}"]
@@ -73021,6 +73633,8 @@ pub mod wancho {
     pub const WANCHO_DIGIT_NINE: &str = "\u{1E2F9}";
     #[doc = "\u{1E2FF}"]
     pub const WANCHO_NGUN_SIGN: &str = "\u{1E2FF}";
+}
+
 /// 1E4D0..1E4FF
 pub mod nag_mundari {
     #[doc = "\u{1E4D0}"]
@@ -73107,6 +73721,8 @@ pub mod nag_mundari {
     pub const NAG_MUNDARI_DIGIT_EIGHT: &str = "\u{1E4F8}";
     #[doc = "\u{1E4F9}"]
     pub const NAG_MUNDARI_DIGIT_NINE: &str = "\u{1E4F9}";
+}
+
 /// 1E5D0..1E5FF
 pub mod ol_onal {
     #[doc = "\u{1E5D0}"]
@@ -73197,6 +73813,8 @@ pub mod ol_onal {
     pub const OL_ONAL_DIGIT_NINE: &str = "\u{1E5FA}";
     #[doc = "\u{1E5FF}"]
     pub const OL_ONAL_ABBREVIATION_SIGN: &str = "\u{1E5FF}";
+}
+
 /// 1E6C0..1E6FF
 pub mod tai_yo {
     #[doc = "\u{1E6C0}"]
@@ -73309,6 +73927,8 @@ pub mod tai_yo {
     pub const TAI_YO_SYMBOL_MUEANG: &str = "\u{1E6FE}";
     #[doc = "\u{1E6FF}"]
     pub const TAI_YO_XAM_LAI: &str = "\u{1E6FF}";
+}
+
 /// 1E7E0..1E7FF
 pub mod ethiopic_extended_b {
     #[doc = "\u{1E7E0}"]
@@ -73367,6 +73987,8 @@ pub mod ethiopic_extended_b {
     pub const ETHIOPIC_SYLLABLE_GURAGE_PWI: &str = "\u{1E7FD}";
     #[doc = "\u{1E7FE}"]
     pub const ETHIOPIC_SYLLABLE_GURAGE_PWEE: &str = "\u{1E7FE}";
+}
+
 /// 1E800..1E8DF
 pub mod mende_kikakui {
     #[doc = "\u{1E800}"]
@@ -73795,6 +74417,8 @@ pub mod mende_kikakui {
     pub const MENDE_KIKAKUI_COMBINING_NUMBER_HUNDRED_THOUSANDS: &str = "\u{1E8D5}";
     #[doc = "\u{1E8D6}"]
     pub const MENDE_KIKAKUI_COMBINING_NUMBER_MILLIONS: &str = "\u{1E8D6}";
+}
+
 /// 1E900..1E95F
 pub mod adlam {
     #[doc = "\u{1E900}"]
@@ -73973,6 +74597,8 @@ pub mod adlam {
     pub const ADLAM_INITIAL_EXCLAMATION_MARK: &str = "\u{1E95E}";
     #[doc = "\u{1E95F}"]
     pub const ADLAM_INITIAL_QUESTION_MARK: &str = "\u{1E95F}";
+}
+
 /// 1EC70..1ECBF
 pub mod indic_siyaq_numbers {
     #[doc = "\u{1EC71}"]
@@ -74111,6 +74737,8 @@ pub mod indic_siyaq_numbers {
     pub const INDIC_SIYAQ_NUMBER_ALTERNATE_TEN_THOUSAND: &str = "\u{1ECB3}";
     #[doc = "\u{1ECB4}"]
     pub const INDIC_SIYAQ_ALTERNATE_LAKH_MARK: &str = "\u{1ECB4}";
+}
+
 /// 1ED00..1ED4F
 pub mod ottoman_siyaq_numbers {
     #[doc = "\u{1ED01}"]
@@ -74235,6 +74863,8 @@ pub mod ottoman_siyaq_numbers {
     pub const OTTOMAN_SIYAQ_FRACTION_ONE_HALF: &str = "\u{1ED3C}";
     #[doc = "\u{1ED3D}"]
     pub const OTTOMAN_SIYAQ_FRACTION_ONE_SIXTH: &str = "\u{1ED3D}";
+}
+
 /// 1EE00..1EEFF
 pub mod arabic_mathematical_alphabetic_symbols {
     #[doc = "\u{1EE00}"]
@@ -74523,6 +75153,8 @@ pub mod arabic_mathematical_alphabetic_symbols {
     pub const ARABIC_MATHEMATICAL_OPERATOR_MEEM_WITH_HAH_WITH_TATWEEL: &str = "\u{1EEF0}";
     #[doc = "\u{1EEF1}"]
     pub const ARABIC_MATHEMATICAL_OPERATOR_HAH_WITH_DAL: &str = "\u{1EEF1}";
+}
+
 /// 1F000..1F02F
 pub mod mahjong_tiles {
     #[doc = "\u{1F000}"]
@@ -74613,6 +75245,8 @@ pub mod mahjong_tiles {
     pub const MAHJONG_TILE_JOKER: &str = "\u{1F02A}";
     #[doc = "\u{1F02B}"]
     pub const MAHJONG_TILE_BACK: &str = "\u{1F02B}";
+}
+
 /// 1F030..1F09F
 pub mod domino_tiles {
     #[doc = "\u{1F030}"]
@@ -74815,6 +75449,8 @@ pub mod domino_tiles {
     pub const DOMINO_TILE_VERTICAL_06_05: &str = "\u{1F092}";
     #[doc = "\u{1F093}"]
     pub const DOMINO_TILE_VERTICAL_06_06: &str = "\u{1F093}";
+}
+
 /// 1F0A0..1F0FF
 pub mod playing_cards {
     #[doc = "\u{1F0A0}"]
@@ -74981,6 +75617,8 @@ pub mod playing_cards {
     pub const PLAYING_CARD_TRUMP_20: &str = "\u{1F0F4}";
     #[doc = "\u{1F0F5}"]
     pub const PLAYING_CARD_TRUMP_21: &str = "\u{1F0F5}";
+}
+
 /// 1F100..1F1FF
 pub mod enclosed_alphanumeric_supplement {
     #[doc = "\u{1F100}"]
@@ -75383,6 +76021,8 @@ pub mod enclosed_alphanumeric_supplement {
     pub const REGIONAL_INDICATOR_SYMBOL_LETTER_Y: &str = "\u{1F1FE}";
     #[doc = "\u{1F1FF}"]
     pub const REGIONAL_INDICATOR_SYMBOL_LETTER_Z: &str = "\u{1F1FF}";
+}
+
 /// 1F200..1F2FF
 pub mod enclosed_ideographic_supplement {
     #[doc = "\u{1F200}"]
@@ -75513,6 +76153,8 @@ pub mod enclosed_ideographic_supplement {
     pub const ROUNDED_SYMBOL_FOR_SHUANGXI: &str = "\u{1F264}";
     #[doc = "\u{1F265}"]
     pub const ROUNDED_SYMBOL_FOR_CAI: &str = "\u{1F265}";
+}
+
 /// 1F300..1F5FF
 pub mod miscellaneous_symbols_and_pictographs {
     #[doc = "\u{1F300}"]
@@ -77051,6 +77693,8 @@ pub mod miscellaneous_symbols_and_pictographs {
     pub const SILHOUETTE_OF_JAPAN: &str = "\u{1F5FE}";
     #[doc = "\u{1F5FF}"]
     pub const MOYAI: &str = "\u{1F5FF}";
+}
+
 /// 1F600..1F64F
 pub mod emoticons {
     #[doc = "\u{1F600}"]
@@ -77213,6 +77857,8 @@ pub mod emoticons {
     pub const PERSON_WITH_POUTING_FACE: &str = "\u{1F64E}";
     #[doc = "\u{1F64F}"]
     pub const PERSON_WITH_FOLDED_HANDS: &str = "\u{1F64F}";
+}
+
 /// 1F650..1F67F
 pub mod ornamental_dingbats {
     #[doc = "\u{1F650}"]
@@ -77311,6 +77957,8 @@ pub mod ornamental_dingbats {
     pub const CHECKER_BOARD: &str = "\u{1F67E}";
     #[doc = "\u{1F67F}"]
     pub const REVERSE_CHECKER_BOARD: &str = "\u{1F67F}";
+}
+
 /// 1F680..1F6FF
 pub mod transport_and_map_symbols {
     #[doc = "\u{1F680}"]
@@ -77551,6 +78199,8 @@ pub mod transport_and_map_symbols {
     pub const PICKUP_TRUCK: &str = "\u{1F6FB}";
     #[doc = "\u{1F6FC}"]
     pub const ROLLER_SKATE: &str = "\u{1F6FC}";
+}
+
 /// 1F700..1F77F
 pub mod alchemical_symbols {
     #[doc = "\u{1F700}"]
@@ -77809,6 +78459,8 @@ pub mod alchemical_symbols {
     pub const QUAOAR: &str = "\u{1F77E}";
     #[doc = "\u{1F77F}"]
     pub const ORCUS: &str = "\u{1F77F}";
+}
+
 /// 1F780..1F7FF
 pub mod geometric_shapes_extended {
     #[doc = "\u{1F780}"]
@@ -78017,6 +78669,8 @@ pub mod geometric_shapes_extended {
     pub const LARGE_BROWN_SQUARE: &str = "\u{1F7EB}";
     #[doc = "\u{1F7F0}"]
     pub const HEAVY_EQUALS_SIGN: &str = "\u{1F7F0}";
+}
+
 /// 1F800..1F8FF
 pub mod supplemental_arrows_c {
     #[doc = "\u{1F800}"]
@@ -78361,6 +79015,8 @@ pub mod supplemental_arrows_c {
     pub const LONG_RIGHTWARDS_ARROW_WITH_DOUBLE_SLASH: &str = "\u{1F8D7}";
     #[doc = "\u{1F8D8}"]
     pub const LONG_LEFT_RIGHT_ARROW_WITH_DEPENDENT_LOBE: &str = "\u{1F8D8}";
+}
+
 /// 1F900..1F9FF
 pub mod supplemental_symbols_and_pictographs {
     #[doc = "\u{1F900}"]
@@ -78875,6 +79531,8 @@ pub mod supplemental_symbols_and_pictographs {
     pub const RECEIPT: &str = "\u{1F9FE}";
     #[doc = "\u{1F9FF}"]
     pub const NAZAR_AMULET: &str = "\u{1F9FF}";
+}
+
 /// 1FA00..1FA6F
 pub mod chess_symbols {
     #[doc = "\u{1FA00}"]
@@ -79081,6 +79739,8 @@ pub mod chess_symbols {
     pub const XIANGQI_BLACK_CANNON: &str = "\u{1FA6C}";
     #[doc = "\u{1FA6D}"]
     pub const XIANGQI_BLACK_SOLDIER: &str = "\u{1FA6D}";
+}
+
 /// 1FA70..1FAFF
 pub mod symbols_and_pictographs_extended_a {
     #[doc = "\u{1FA70}"]
@@ -79323,6 +79983,8 @@ pub mod symbols_and_pictographs_extended_a {
     pub const LEFTWARDS_PUSHING_HAND: &str = "\u{1FAF7}";
     #[doc = "\u{1FAF8}"]
     pub const RIGHTWARDS_PUSHING_HAND: &str = "\u{1FAF8}";
+}
+
 /// 1FB00..1FBFF
 pub mod symbols_for_legacy_computing {
     #[doc = "\u{1FB00}"]
@@ -79825,18 +80487,32 @@ pub mod symbols_for_legacy_computing {
     pub const SEGMENTED_DIGIT_NINE: &str = "\u{1FBF9}";
     #[doc = "\u{1FBFA}"]
     pub const ALARM_BELL_SYMBOL: &str = "\u{1FBFA}";
+}
+
 /// 20000..2A6DF
 pub mod cjk_unified_ideographs_extension_b {
+}
+
 /// 2A700..2B73F
 pub mod cjk_unified_ideographs_extension_c {
+}
+
 /// 2B740..2B81F
 pub mod cjk_unified_ideographs_extension_d {
+}
+
 /// 2B820..2CEAF
 pub mod cjk_unified_ideographs_extension_e {
+}
+
 /// 2CEB0..2EBEF
 pub mod cjk_unified_ideographs_extension_f {
+}
+
 /// 2EBF0..2EE5F
 pub mod cjk_unified_ideographs_extension_i {
+}
+
 /// 2F800..2FA1F
 pub mod cjk_compatibility_ideographs_supplement {
     #[doc = "\u{2F800}"]
@@ -80923,12 +81599,20 @@ pub mod cjk_compatibility_ideographs_supplement {
     pub const CJK_COMPATIBILITY_IDEOGRAPH_2FA1C: &str = "\u{2FA1C}";
     #[doc = "\u{2FA1D}"]
     pub const CJK_COMPATIBILITY_IDEOGRAPH_2FA1D: &str = "\u{2FA1D}";
+}
+
 /// 30000..3134F
 pub mod cjk_unified_ideographs_extension_g {
+}
+
 /// 31350..323AF
 pub mod cjk_unified_ideographs_extension_h {
+}
+
 /// 323B0..3347F
 pub mod cjk_unified_ideographs_extension_j {
+}
+
 /// E0000..E007F
 pub mod tags {
     #[doc = "\u{E0001}"]
@@ -81125,6 +81809,8 @@ pub mod tags {
     pub const TAG_TILDE: &str = "\u{E007E}";
     #[doc = "\u{E007F}"]
     pub const CANCEL_TAG: &str = "\u{E007F}";
+}
+
 /// E0100..E01EF
 pub mod variation_selectors_supplement {
     #[doc = "\u{E0100}"]
@@ -81607,8 +82293,12 @@ pub mod variation_selectors_supplement {
     pub const VARIATION_SELECTOR_255: &str = "\u{E01EE}";
     #[doc = "\u{E01EF}"]
     pub const VARIATION_SELECTOR_256: &str = "\u{E01EF}";
+}
+
 /// F0000..FFFFF
 pub mod supplementary_private_use_area_a {
+}
+
 /// 100000..10FFFF
 pub mod supplementary_private_use_area_b {
 }

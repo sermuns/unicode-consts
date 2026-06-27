@@ -90,6 +90,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         let code_value = u32::from_str_radix(code_value_str, 16).unwrap();
         if code_value > current_unicode_block.end {
+            writeln!(writer, "}}\n")?;
             current_unicode_block =
                 UnicodeBlock::from_str(&unicode_blocks_lines.next().unwrap().unwrap()).unwrap();
             enter_unicode_block(&mut writer, &current_unicode_block)?;
