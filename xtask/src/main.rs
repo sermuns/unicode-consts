@@ -110,7 +110,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         writeln!(
             writer,
-            r#"    pub const {}: &str = "\u{{{}}}";"#,
+            r#"    pub const {}: char = '\u{{{}}}';"#,
             character_name.replace([' ', '-'], "_").to_uppercase(),
             code_value_str
         )?;
