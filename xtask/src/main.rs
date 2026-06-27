@@ -105,7 +105,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         let character = char::from_u32(code_value).unwrap();
         if !character.is_whitespace() && !character.is_control() {
-            writeln!(writer, "\n    /// {}", character)?;
+            writeln!(writer)?;
+            writeln!(writer, r#"    #[doc = "\u{{{}}}"]"#, code_value_str)?;
         }
 
         writeln!(
