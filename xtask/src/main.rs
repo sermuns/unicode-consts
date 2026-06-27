@@ -9,6 +9,9 @@ const OUTPUT_PATH: &str = "src/lib.rs";
 const UCD_URL: &str = "https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt";
 const BLOCKS_URL: &str = "https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt";
 
+// TODO:
+// const ALIASES_URL: &str = "https://www.unicode.org/Public/UCD/latest/ucd/NameAliases.txt";
+
 #[derive(Debug)]
 struct UnicodeBlock {
     // start: u32,
@@ -40,13 +43,17 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut writer = File::create(OUTPUT_PATH)?;
 
     let ucd_reader = ureq::get(UCD_URL).call()?.into_body().into_reader();
+    println!("downloading '{}'.", UCD_URL);
 
     let mut csv_reader = csv::ReaderBuilder::new()
         .has_headers(false)
         .delimiter(b';')
         .from_reader(ucd_reader);
+    println!("creating CSV reader for '{}'.", UCD_URL);
 
     let unicode_blocks_reader = ureq::get(BLOCKS_URL).call()?.into_body().into_reader();
+    println!("downloading '{}'.", BLOCKS_URL);
+
     let mut unicode_blocks_lines = BufReader::new(unicode_blocks_reader)
         .lines()
         // consume the metadata comment at start of file
@@ -54,6 +61,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             let line = line.as_ref().unwrap();
             line.is_empty() || line.starts_with('#')
         });
+    println!("creating line reader for '{}'.", BLOCKS_URL);
 
     // FIXME: mother of unwraps
     let mut current_unicode_block = UnicodeBlock::from_str(&unicode_blocks_lines.next().unwrap()?)?;
@@ -63,6 +71,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         "pub mod {} {{",
         current_unicode_block.snake_case_name
     )?;
+    println!(
+        "doing unicode block '{}'",
+        current_unicode_block.snake_case_name
+    );
 
     for result in csv_reader.records() {
         let record = result?;
@@ -78,6 +90,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 "}}\npub mod {} {{",
                 current_unicode_block.snake_case_name
             )?;
+            println!(
+                "doing unicode block '{}'",
+                current_unicode_block.snake_case_name
+            );
         }
 
         let character_name = &record[1];
@@ -85,6 +101,11 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         if character_name.starts_with('<') {
             // TODO: figure out why these exist..
             continue;
+        }
+
+        let character = char::from_u32(code_value).unwrap();
+        if !character.is_whitespace() && !character.is_control() {
+            writeln!(writer, "\n    /// {}", character)?;
         }
 
         writeln!(
