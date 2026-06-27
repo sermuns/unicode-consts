@@ -71,10 +71,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         let code_value = u32::from_str_radix(code_value_str, 16).unwrap();
         if code_value > current_unicode_block.end {
-            // println!(
-            //     "code value {} is outside of current block {:?}, moving to next block",
-            //     code_value, current_unicode_block
-            // );
             current_unicode_block =
                 UnicodeBlock::from_str(&unicode_blocks_lines.next().unwrap().unwrap()).unwrap();
             writeln!(
