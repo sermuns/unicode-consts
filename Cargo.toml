@@ -3,7 +3,7 @@ name = "unicode-consts"
 description = "named constants for all unicode characters"
 license = "Apache-2.0 OR MIT"
 repository = "https://github.com/sermuns/unicode-consts"
-version = "0.2.1"
+version = "0.2.2"
 edition = "2024"
 
 [dependencies]
