@@ -57,6 +57,7 @@ fn enter_unicode_block(
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut writer = File::create(OUTPUT_PATH)?;
+    writeln!(writer, "#![no_std]").unwrap();
 
     let ucd_reader = ureq::get(UCD_URL).call()?.into_body().into_reader();
     println!("downloading '{}'.", UCD_URL);

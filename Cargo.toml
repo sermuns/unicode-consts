@@ -1,9 +1,10 @@
 [package]
 name = "unicode-consts"
-description = "named constants for all unicode characters"
-license = "Apache-2.0 OR MIT"
-repository = "https://github.com/sermuns/unicode-consts"
-version = "0.2.2"
+version = "0.2.3"
 edition = "2024"
+description = "named constants for all unicode characters"
+repository = "https://github.com/sermuns/unicode-consts"
+license = "Apache-2.0 OR MIT"
+categories = ["no-std", "no-std::no-alloc"]
 
 [dependencies]

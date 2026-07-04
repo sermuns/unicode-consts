@@ -1,3 +1,4 @@
+#![no_std]
 /// 0000..007F
 pub mod basic_latin {
     pub const SPACE: &str = "\u{0020}";
