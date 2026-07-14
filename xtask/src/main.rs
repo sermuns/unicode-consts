@@ -1,10 +1,14 @@
 use std::{
-    fs::File,
+    fs::{self, File},
     io::{BufRead, BufReader, Write},
     str::FromStr,
 };
 
-const OUTPUT_PATH: &str = "src/lib.rs";
+use serde::{Deserialize, Serialize};
+use toml::{Table, value::Array};
+
+const LIB_OUTPUT_PATH: &str = "src/lib.rs";
+const CARGO_TOML_OUTPUT_PATH: &str = "Cargo.toml";
 
 const UCD_URL: &str = "https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt";
 const BLOCKS_URL: &str = "https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt";
@@ -19,6 +23,23 @@ struct UnicodeBlock {
     snake_case_name: String,
 }
 
+#[derive(Deserialize, Serialize)]
+struct CargoToml {
+    package: Package,
+    features: Option<Table>,
+}
+
+#[derive(Deserialize, Serialize)]
+struct Package {
+    name: String,
+    version: String,
+    edition: String,
+    description: String,
+    repository: String,
+    license: String,
+    categories: Vec<String>,
+}
+
 impl FromStr for UnicodeBlock {
     type Err = std::num::ParseIntError;
 
@@ -30,18 +51,24 @@ impl FromStr for UnicodeBlock {
         let start = u32::from_str_radix(start_str, 16)?;
         let end = u32::from_str_radix(end_str, 16)?;
 
+        let snake_case_name = as_snake_case(name);
+
         Ok(UnicodeBlock {
             start,
             end,
-            // don't know if we can avoid alloc
-            snake_case_name: name.trim().replace([' ', '-'], "_").to_lowercase(),
+            snake_case_name,
         })
     }
+}
+
+fn as_snake_case(s: &str) -> String {
+    s.trim().replace([' ', '-'], "_").to_lowercase()
 }
 
 fn enter_unicode_block(
     writer: &mut impl Write,
     unicode_block: &UnicodeBlock,
+    features: &mut Table,
 ) -> std::io::Result<()> {
     println!("doing unicode block '{}'", unicode_block.snake_case_name);
 
@@ -50,14 +77,28 @@ fn enter_unicode_block(
         "/// {:04X}..{:04X}",
         unicode_block.start, unicode_block.end
     )?;
+
+    writeln!(
+        writer,
+        r#"#[cfg(feature = "{}")]"#,
+        unicode_block.snake_case_name,
+    )?;
+
     writeln!(writer, "pub mod {} {{", unicode_block.snake_case_name)?;
+
+    features.insert(
+        unicode_block.snake_case_name.clone(),
+        toml::Value::Array(Array::new()),
+    );
 
     Ok(())
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let mut writer = File::create(OUTPUT_PATH)?;
-    writeln!(writer, "#![no_std]").unwrap();
+    let mut features = Table::new();
+
+    let mut lib_writer = File::create(LIB_OUTPUT_PATH)?;
+    writeln!(lib_writer, "#![no_std]").unwrap();
 
     let ucd_reader = ureq::get(UCD_URL).call()?.into_body().into_reader();
     println!("downloading '{}'.", UCD_URL);
@@ -82,7 +123,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // FIXME: mother of unwraps
     let mut current_unicode_block = UnicodeBlock::from_str(&unicode_blocks_lines.next().unwrap()?)?;
-    enter_unicode_block(&mut writer, &current_unicode_block)?;
+    enter_unicode_block(&mut lib_writer, &current_unicode_block, &mut features)?;
 
     for result in csv_reader.records() {
         let record = result?;
@@ -91,10 +132,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         let code_value = u32::from_str_radix(code_value_str, 16).unwrap();
         if code_value > current_unicode_block.end {
-            writeln!(writer, "}}\n")?;
+            writeln!(lib_writer, "}}\n")?;
             current_unicode_block =
                 UnicodeBlock::from_str(&unicode_blocks_lines.next().unwrap().unwrap()).unwrap();
-            enter_unicode_block(&mut writer, &current_unicode_block)?;
+            enter_unicode_block(&mut lib_writer, &current_unicode_block, &mut features)?;
         }
 
         let character_name = &record[1];
@@ -106,18 +147,24 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         let character = char::from_u32(code_value).unwrap();
         if !character.is_whitespace() && !character.is_control() {
-            writeln!(writer, r#"    #[doc = "\u{{{}}}"]"#, code_value_str)?;
+            writeln!(lib_writer, r#"    #[doc = "\u{{{}}}"]"#, code_value_str)?;
         }
 
         writeln!(
-            writer,
+            lib_writer,
             r#"    pub const {}: &str = "\u{{{}}}";"#,
             character_name.replace([' ', '-'], "_").to_uppercase(),
             code_value_str
         )?;
     }
 
-    writeln!(writer, "}}")?;
+    writeln!(lib_writer, "}}")?;
+
+    let mut cargo_toml: CargoToml = toml::from_str(&fs::read_to_string(CARGO_TOML_OUTPUT_PATH)?)?;
+    cargo_toml.features = Some(features);
+
+    let cargo_toml_string = toml::to_string(&cargo_toml)?;
+    fs::write(CARGO_TOML_OUTPUT_PATH, cargo_toml_string)?;
 
     Ok(())
 }

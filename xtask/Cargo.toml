@@ -4,5 +4,7 @@ edition = "2024"
 publish = false
 
 [dependencies]
-csv = { version  = "1" }
+csv = "1"
+serde = { version = "1", features = ["derive"] }
+toml = "1.1"
 ureq = "3"
